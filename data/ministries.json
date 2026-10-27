@@ -1,0 +1,2530 @@
+[
+  {
+    "id": "previdencia",
+    "name": "Previdência Social",
+    "budget": 1145.7,
+    "budgetSource": "https://www2.camara.leg.br/orcamento-da-uniao/raio-x-do-orcamento/2026/RaioXdoOramento2026PsVetos.pdf#page=4",
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art43",
+    "article": "43",
+    "attributes": [
+      {
+        "id": "previdencia-a1",
+        "text": "previdência social; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art43"
+      },
+      {
+        "id": "previdencia-a2",
+        "text": "previdência complementar",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art43"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "desenvolvimento-social",
+    "name": "Desenvolvimento e Assistência Social, Família e Combate à Fome",
+    "budget": 302.8,
+    "budgetSource": "https://www2.camara.leg.br/orcamento-da-uniao/raio-x-do-orcamento/2026/RaioXdoOramento2026PsVetos.pdf#page=4",
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art27",
+    "article": "27",
+    "attributes": [
+      {
+        "id": "desenvolvimento-social-a1",
+        "text": "política nacional de desenvolvimento social",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art27"
+      },
+      {
+        "id": "desenvolvimento-social-a2",
+        "text": "política nacional de segurança alimentar e nutricional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art27"
+      },
+      {
+        "id": "desenvolvimento-social-a3",
+        "text": "política nacional de assistência social",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art27"
+      },
+      {
+        "id": "desenvolvimento-social-a4",
+        "text": "política nacional de renda de cidadania",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art27"
+      },
+      {
+        "id": "desenvolvimento-social-a5",
+        "text": "ações e programas direcionados à redução do uso abusivo de álcool e outras drogas no âmbito da rede de acolhimento",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art27"
+      },
+      {
+        "id": "desenvolvimento-social-a6",
+        "text": "articulação entre as políticas e os programas dos governos federal, estaduais, distrital e municipais e as ações da sociedade civil ligadas ao desenvolvimento social, à produção alimentar, à segurança alimentar e nutricional, à renda de cidadania, à redução de demanda de álcool e outras drogas e à assistência social",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art27"
+      },
+      {
+        "id": "desenvolvimento-social-a7",
+        "text": "articulação, coordenação, supervisão, integração e proposição das ações do governo e do Sistema Nacional de Políticas Públicas sobre Drogas (Sisnad) quanto aos aspectos relacionados à acolhida, à recuperação e à reinserção social no âmbito da rede de acolhimento",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art27"
+      },
+      {
+        "id": "desenvolvimento-social-a8",
+        "text": "orientação, acompanhamento, avaliação e supervisão de planos, de programas e de projetos relativos às áreas de desenvolvimento social, de segurança alimentar e nutricional, de renda de cidadania e de assistência social",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art27"
+      },
+      {
+        "id": "desenvolvimento-social-a9",
+        "text": "normatização, orientação, supervisão e avaliação da execução das políticas de desenvolvimento social, de segurança alimentar e nutricional, de renda de cidadania e de assistência social",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art27"
+      },
+      {
+        "id": "desenvolvimento-social-a10",
+        "text": "gestão do Fundo Nacional de Assistência Social (FNAS)",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art27"
+      },
+      {
+        "id": "desenvolvimento-social-a11",
+        "text": "gestão do Fundo de Combate e Erradicação da Pobreza",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art27"
+      },
+      {
+        "id": "desenvolvimento-social-a12",
+        "text": "coordenação, supervisão, controle e avaliação da operacionalização de programas de transferência de renda; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art27"
+      },
+      {
+        "id": "desenvolvimento-social-a13",
+        "text": "aprovação dos orçamentos gerais do Serviço Social da Indústria (Sesi), do Serviço Social do Comércio (Sesc) e do Serviço Social do Transporte (Sest)",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art27"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "saude",
+    "name": "Saúde",
+    "budget": 269.1,
+    "budgetSource": "https://www2.camara.leg.br/orcamento-da-uniao/raio-x-do-orcamento/2026/RaioXdoOramento2026PsVetos.pdf#page=4",
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art45",
+    "article": "45",
+    "attributes": [
+      {
+        "id": "saude-a1",
+        "text": "política nacional de saúde",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art45"
+      },
+      {
+        "id": "saude-a2",
+        "text": "coordenação e fiscalização do Sistema Único de Saúde (SUS)",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art45"
+      },
+      {
+        "id": "saude-a3",
+        "text": "saúde ambiental e ações de promoção, de proteção e de recuperação da saúde individual e coletiva, inclusive a dos trabalhadores e a dos indígenas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art45"
+      },
+      {
+        "id": "saude-a4",
+        "text": "informações de saúde",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art45"
+      },
+      {
+        "id": "saude-a5",
+        "text": "insumos críticos para a saúde",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art45"
+      },
+      {
+        "id": "saude-a6",
+        "text": "ação preventiva em geral, vigilância e controle sanitário de fronteiras, de portos marítimos, fluviais e lacustres e de aeroportos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art45"
+      },
+      {
+        "id": "saude-a7",
+        "text": "vigilância de saúde, especialmente quanto a drogas, a medicamentos e a alimentos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art45"
+      },
+      {
+        "id": "saude-a8",
+        "text": "pesquisa científica e tecnológica na área de saúde; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art45"
+      },
+      {
+        "id": "saude-a9",
+        "text": "produtos, serviços e inovações tecnológicas em fármacos e em medicamentos para fortalecimento do complexo industrial e econômico da saúde",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art45"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "educacao",
+    "name": "Educação",
+    "budget": 222.4,
+    "budgetSource": "https://www2.camara.leg.br/orcamento-da-uniao/raio-x-do-orcamento/2026/RaioXdoOramento2026PsVetos.pdf#page=4",
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art30",
+    "article": "30",
+    "attributes": [
+      {
+        "id": "educacao-a1",
+        "text": "política nacional de educação",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art30"
+      },
+      {
+        "id": "educacao-a2",
+        "text": "educação em geral, compreendidos educação infantil, ensino fundamental, ensino médio, ensino superior, educação de jovens e adultos, educação profissional e tecnológica, educação especial e educação a distância, exceto ensino militar",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art30"
+      },
+      {
+        "id": "educacao-a3",
+        "text": "avaliação, informação e pesquisa educacional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art30"
+      },
+      {
+        "id": "educacao-a4",
+        "text": "pesquisa e extensão universitária",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art30"
+      },
+      {
+        "id": "educacao-a5",
+        "text": "magistério e demais profissionais da educação; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art30"
+      },
+      {
+        "id": "educacao-a6",
+        "text": "assistência financeira a famílias carentes para a escolarização de seus filhos ou dependentes",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art30"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "defesa",
+    "name": "Defesa",
+    "budget": 135.9,
+    "budgetSource": "https://www2.camara.leg.br/orcamento-da-uniao/raio-x-do-orcamento/2026/RaioXdoOramento2026PsVetos.pdf#page=4",
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24",
+    "article": "24",
+    "attributes": [
+      {
+        "id": "defesa-a1",
+        "text": "Política Nacional de Defesa, Estratégia Nacional de Defesa e Livro Branco de Defesa Nacional, de que trata a Lei Complementar nº 97, de 9 de junho de 1999",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a2",
+        "text": "políticas e estratégias setoriais de defesa e militares",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a3",
+        "text": "doutrina, planejamento, organização, preparo e emprego conjunto e singular das Forças Armadas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a4",
+        "text": "projetos especiais de interesse da defesa nacional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a5",
+        "text": "inteligência estratégica e operacional no interesse da defesa",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a6",
+        "text": "operações militares das Forças Armadas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a7",
+        "text": "relacionamento internacional de defesa",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a8",
+        "text": "orçamento de defesa",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a9",
+        "text": "legislação de defesa e militar",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a10",
+        "text": "política de mobilização nacional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a11",
+        "text": "política de ensino de defesa",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a12",
+        "text": "política de ciência, tecnologia e inovação de defesa",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a13",
+        "text": "política de comunicação social de defesa",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a14",
+        "text": "proteção social e remuneração dos militares das Forças Armadas e de seus pensionistas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a15",
+        "text": "política nacional: a) de indústria de defesa, abrangida a produção; b) de compra, de contratação e de desenvolvimento de produtos de defesa, abrangidas as atividades de compensação tecnológica, industrial e comercial; c) de inteligência comercial de produtos de defesa; e d) de controle da exportação e importação de produtos de defesa e em áreas de interesse da defesa;",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a16",
+        "text": "atuação das Forças Armadas, quando couber: a) na garantia da lei e da ordem, com vistas à preservação da ordem pública e da incolumidade das pessoas e do patrimônio; b) na garantia da votação e da apuração eleitoral; e c) na cooperação com o desenvolvimento nacional e a defesa civil e no combate a delitos transfronteiriços e ambientais;",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a17",
+        "text": "logística de defesa",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a18",
+        "text": "serviço militar",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a19",
+        "text": "assistência à saúde, assistência social e assistência religiosa das Forças Armadas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a20",
+        "text": "constituição, organização, adestramento, aprestamento e efetivos das forças navais, terrestres e aéreas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a21",
+        "text": "política marítima nacional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a22",
+        "text": "segurança da navegação aérea e do tráfego aquaviário e salvaguarda da vida humana no mar",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a23",
+        "text": "patrimônio imobiliário administrado pelas Forças Armadas, sem prejuízo das competências atribuídas ao Ministério da Gestão e da Inovação em Serviços Públicos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a24",
+        "text": "política militar aeronáutica e atuação na política aeroespacial nacional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a25",
+        "text": "infraestrutura aeroespacial e aeronáutica",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a26",
+        "text": "operacionalização do Sistema de Proteção da Amazônia (Sipam); e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      },
+      {
+        "id": "defesa-a27",
+        "text": "defesa cibernética",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art24"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "trabalho",
+    "name": "Trabalho e Emprego",
+    "budget": 99.7,
+    "budgetSource": "https://www2.camara.leg.br/orcamento-da-uniao/raio-x-do-orcamento/2026/RaioXdoOramento2026PsVetos.pdf#page=4",
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46",
+    "article": "46",
+    "attributes": [
+      {
+        "id": "trabalho-a1",
+        "text": "política e diretrizes para a geração de emprego e renda e de apoio ao trabalhador",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      },
+      {
+        "id": "trabalho-a2",
+        "text": "política e diretrizes para a modernização do sistema de relações de trabalho e do sistema sindical",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      },
+      {
+        "id": "trabalho-a3",
+        "text": "fiscalização do trabalho, inclusive dos trabalhos portuário e aquaviário, e aplicação das sanções por descumprimento de normas legais ou coletivas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      },
+      {
+        "id": "trabalho-a4",
+        "text": "política salarial",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      },
+      {
+        "id": "trabalho-a5",
+        "text": "intermediação de mão de obra e formação e desenvolvimento profissionais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      },
+      {
+        "id": "trabalho-a6",
+        "text": "segurança e saúde no trabalho",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      },
+      {
+        "id": "trabalho-a7",
+        "text": "economia popular e solidária, cooperativismo e associativismo",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      },
+      {
+        "id": "trabalho-a8",
+        "text": "carteira de trabalho, registro e regulação profissionais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      },
+      {
+        "id": "trabalho-a9",
+        "text": "registro sindical",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      },
+      {
+        "id": "trabalho-a10",
+        "text": "produção de estatísticas, de estudos e de pesquisas sobre o mundo do trabalho para subsidiar políticas públicas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      },
+      {
+        "id": "trabalho-a11",
+        "text": "políticas de aprendizagem e de inclusão das pessoas com deficiência no mundo do trabalho, em articulação com os demais órgãos competentes",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      },
+      {
+        "id": "trabalho-a12",
+        "text": "políticas de enfrentamento às desigualdades no mundo do trabalho",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      },
+      {
+        "id": "trabalho-a13",
+        "text": "políticas direcionadas à relação entre novas tecnologias, inovação e mudanças no mundo do trabalho, em articulação com os demais órgãos competentes",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      },
+      {
+        "id": "trabalho-a14",
+        "text": "políticas para enfrentamento da informalidade e da precariedade no mundo do trabalho, bem como ações para mitigar a rotatividade do emprego",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      },
+      {
+        "id": "trabalho-a15",
+        "text": "Fundo de Garantia do Tempo de Serviço (FGTS); e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      },
+      {
+        "id": "trabalho-a16",
+        "text": "Fundo de Amparo ao Trabalhador (FAT)",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art46"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "justica",
+    "name": "Justiça e Segurança Pública",
+    "budget": 23.3,
+    "budgetSource": "https://www2.camara.leg.br/orcamento-da-uniao/raio-x-do-orcamento/2026/RaioXdoOramento2026PsVetos.pdf#page=4",
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35",
+    "article": "35",
+    "attributes": [
+      {
+        "id": "justica-a1",
+        "text": "defesa da ordem jurídica, dos direitos políticos e das garantias constitucionais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a2",
+        "text": "política judiciária",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a3",
+        "text": "políticas de acesso à justiça",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a4",
+        "text": "diálogo institucional com o Poder Judiciário e demais órgãos do sistema de justiça, em articulação com a Advocacia-Geral da União",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a5",
+        "text": "articulação, coordenação, supervisão, integração e proposição das ações do governo e do Sisnad quanto à: a) prevenção e repressão a crimes, a delitos e a infrações relacionados às drogas lícitas e ilícitas; b) educação, informação e capacitação com vistas à prevenção e redução do uso, do uso problemático ou da dependência de drogas lícitas e ilícitas; c) reinserção social de pessoas com problemas decorrentes do uso, do uso problemático ou da dependência do álcool e outras drogas; e d) manutenção e atualização do Observatório Brasileiro de Informações sobre Drogas;",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a6",
+        "text": "defesa da ordem econômica nacional e dos direitos do consumidor",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a7",
+        "text": "nacionalidade, migrações e refúgio",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a8",
+        "text": "ouvidoria-geral do consumidor e das polícias federais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a9",
+        "text": "prevenção e combate à corrupção, à lavagem de dinheiro e ao financiamento ao terrorismo",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a10",
+        "text": "cooperação jurídica internacional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a11",
+        "text": "coordenação de ações para combate a infrações penais em geral, com ênfase em crime organizado e em crimes violentos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a12",
+        "text": "coordenação e promoção da integração da segurança pública no território nacional, em cooperação com os entes federativos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a13",
+        "text": "execução das atividades previstas no § 1º do art. 144 da Constituição Federal, por meio da polícia federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a14",
+        "text": "execução da atividade prevista no § 2º do art. 144 da Constituição Federal, por meio da polícia rodoviária federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a15",
+        "text": "política de organização e manutenção da polícia civil, da polícia militar e do corpo de bombeiros militar do Distrito Federal, nos termos do inciso XIV do caput do art. 21 da Constituição Federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a16",
+        "text": "defesa dos bens e dos próprios da União e das entidades integrantes da administração pública federal indireta",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a17",
+        "text": "coordenação do Sistema Único de Segurança Pública",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a18",
+        "text": "planejamento, coordenação e administração da política penal nacional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a19",
+        "text": "promoção da integração e da cooperação entre os órgãos federais, estaduais, distritais e municipais e articulação com os órgãos e as entidades de coordenação e supervisão das atividades de segurança pública",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a20",
+        "text": "estímulo e propositura aos órgãos federais, estaduais, distritais e municipais de elaboração de planos e programas integrados de segurança pública, com o objetivo de prevenir e reprimir a violência e a criminalidade",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a21",
+        "text": "desenvolvimento de estratégia comum baseada em modelos de gestão e de tecnologia que permitam a integração e a interoperabilidade dos sistemas de tecnologia da informação dos entes federativos, nas matérias afetas ao Ministério",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a22",
+        "text": "planejamento, administração, promoção da integração e da cooperação entre os órgãos federais, estaduais, distritais e municipais e articulação com os órgãos e as entidades de coordenação e supervisão das atividades de políticas penais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a23",
+        "text": "tratamento de dados pessoais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a24",
+        "text": "assistência ao Presidente da República em matérias não relacionadas a outro Ministério; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      },
+      {
+        "id": "justica-a25",
+        "text": "reconhecimento e demarcação das terras e dos territórios indígenas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art35"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "transportes",
+    "name": "Transportes",
+    "budget": 17.5,
+    "budgetSource": "https://www2.camara.leg.br/orcamento-da-uniao/raio-x-do-orcamento/2026/RaioXdoOramento2026PsVetos.pdf#page=4",
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art47",
+    "article": "47",
+    "attributes": [
+      {
+        "id": "transportes-a1",
+        "text": "política nacional de transportes ferroviário e rodoviário",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art47"
+      },
+      {
+        "id": "transportes-a2",
+        "text": "política nacional de trânsito",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art47"
+      },
+      {
+        "id": "transportes-a3",
+        "text": "participação no planejamento estratégico, no estabelecimento de diretrizes para sua implementação e na definição das prioridades dos programas de investimentos em transportes ferroviário e rodoviário, em articulação com o Ministério de Portos e Aeroportos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art47"
+      },
+      {
+        "id": "transportes-a4",
+        "text": "elaboração ou aprovação dos planos de outorgas, na forma prevista em legislação específica",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art47"
+      },
+      {
+        "id": "transportes-a5",
+        "text": "estabelecimento de diretrizes para a representação do País em organismos internacionais e em convenções, em acordos e em tratados relativos às suas competências; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art47"
+      },
+      {
+        "id": "transportes-a6",
+        "text": "desenvolvimento da infraestrutura e da superestrutura ferroviária e rodoviária no âmbito de sua competência, com a finalidade de promover a segurança e a eficiência do transporte de cargas e de passageiros",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art47"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "cidades",
+    "name": "Cidades",
+    "budget": 16.6,
+    "budgetSource": "https://www2.camara.leg.br/orcamento-da-uniao/raio-x-do-orcamento/2026/RaioXdoOramento2026PsVetos.pdf#page=4",
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art20",
+    "article": "20",
+    "attributes": [
+      {
+        "id": "cidades-a1",
+        "text": "política de desenvolvimento urbano e ordenamento do território urbano",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art20"
+      },
+      {
+        "id": "cidades-a2",
+        "text": "políticas setoriais de habitação, de saneamento ambiental, de mobilidade e trânsito urbanos, incluídas as políticas para os pequenos Municípios e a zona rural",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art20"
+      },
+      {
+        "id": "cidades-a3",
+        "text": "promoção de ações e de programas de urbanização, de habitação e de saneamento básico e ambiental, incluída a zona rural, de transporte urbano, de trânsito e de desenvolvimento urbano",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art20"
+      },
+      {
+        "id": "cidades-a4",
+        "text": "política de financiamento e subsídio à habitação popular, de saneamento e de mobilidade urbana",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art20"
+      },
+      {
+        "id": "cidades-a5",
+        "text": "planejamento e gestão da aplicação de recursos em políticas de desenvolvimento urbano, de urbanização, de habitação e de saneamento básico e ambiental, incluídos a zona rural e a mobilidade e trânsito urbanos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art20"
+      },
+      {
+        "id": "cidades-a6",
+        "text": "participação na formulação das diretrizes gerais para conservação dos sistemas urbanos de água e para adoção de bacias hidrográficas como unidades básicas do planejamento e da gestão do saneamento; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art20"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "ciencia",
+    "name": "Ciência, Tecnologia e Inovação",
+    "budget": 14.9,
+    "budgetSource": "https://www2.camara.leg.br/orcamento-da-uniao/raio-x-do-orcamento/2026/RaioXdoOramento2026PsVetos.pdf#page=4",
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art22",
+    "article": "22",
+    "attributes": [
+      {
+        "id": "ciencia-a1",
+        "text": "políticas nacionais de ciência, tecnologia e inovação",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art22"
+      },
+      {
+        "id": "ciencia-a2",
+        "text": "planejamento, coordenação, supervisão, monitoramento e avaliação das atividades de ciência, tecnologia e inovação",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art22"
+      },
+      {
+        "id": "ciencia-a3",
+        "text": "políticas de transformação digital e de desenvolvimento da automação",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art22"
+      },
+      {
+        "id": "ciencia-a4",
+        "text": "política nacional de biossegurança",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art22"
+      },
+      {
+        "id": "ciencia-a5",
+        "text": "política espacial",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art22"
+      },
+      {
+        "id": "ciencia-a6",
+        "text": "política nuclear",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art22"
+      },
+      {
+        "id": "ciencia-a7",
+        "text": "controle da exportação de bens e serviços sensíveis; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art22"
+      },
+      {
+        "id": "ciencia-a8",
+        "text": "articulação com os governos dos Estados, do Distrito Federal e dos Municípios, com a sociedade civil e com os órgãos do governo federal, com vistas ao estabelecimento de diretrizes para as políticas nacionais de ciência, tecnologia e inovação",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art22"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "fazenda",
+    "name": "Fazenda",
+    "budget": 14.8,
+    "budgetSource": "https://www2.camara.leg.br/orcamento-da-uniao/raio-x-do-orcamento/2026/RaioXdoOramento2026PsVetos.pdf#page=4",
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art29",
+    "article": "29",
+    "attributes": [
+      {
+        "id": "fazenda-a1",
+        "text": "moeda, crédito, instituições financeiras, capitalização, poupança popular, seguros privados e previdência privada aberta",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art29"
+      },
+      {
+        "id": "fazenda-a2",
+        "text": "política, administração, fiscalização e arrecadação tributária e aduaneira",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art29"
+      },
+      {
+        "id": "fazenda-a3",
+        "text": "administração financeira e contabilidade públicas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art29"
+      },
+      {
+        "id": "fazenda-a4",
+        "text": "administração das dívidas públicas interna e externa",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art29"
+      },
+      {
+        "id": "fazenda-a5",
+        "text": "negociações econômicas e financeiras com governos, com organismos multilaterais e com agências governamentais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art29"
+      },
+      {
+        "id": "fazenda-a6",
+        "text": "formulação de diretrizes e coordenação das negociações de projetos públicos com organismos multilaterais e com agências governamentais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art29"
+      },
+      {
+        "id": "fazenda-a7",
+        "text": "preços em geral e tarifas públicas e administradas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art29"
+      },
+      {
+        "id": "fazenda-a8",
+        "text": "fiscalização e controle do comércio exterior",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art29"
+      },
+      {
+        "id": "fazenda-a9",
+        "text": "realização de estudos e pesquisas para acompanhamento da conjuntura econômica; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art29"
+      },
+      {
+        "id": "fazenda-a10",
+        "text": "autorização, ressalvadas as competências do Conselho Monetário Nacional, de: a) distribuição gratuita de prêmios a título de propaganda quando efetuada mediante sorteio, vale-brinde, concurso ou operação assemelhada; b) operações de consórcio, fundo mútuo e outras formas associativas assemelhadas que objetivem a aquisição de bens de qualquer natureza; c) venda ou promessa de venda de mercadorias a varejo, mediante oferta pública e com recebimento antecipado, parcial ou total, do preço; d) venda ou promessa de venda de direitos, inclusive cotas de propriedade de entidades civis, como hospital, motel, clube, hotel, centro de recreação ou alojamento e organização de serviços de qualquer natureza, com ou sem rateio de despesas de manutenção, mediante oferta pública e com pagamento antecipado do preço; e) venda ou promessa de venda de terrenos loteados a prestações mediante sorteio; e f) exploração de loterias, incluídos os sweepstakes e outras modalidades de loterias realizadas por entidades promotoras de corridas de cavalos.",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art29"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "integracao",
+    "name": "Integração e Desenvolvimento Regional",
+    "budget": 12.2,
+    "budgetSource": "https://www2.camara.leg.br/orcamento-da-uniao/raio-x-do-orcamento/2026/RaioXdoOramento2026PsVetos.pdf#page=4",
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art26",
+    "article": "26",
+    "attributes": [
+      {
+        "id": "integracao-a1",
+        "text": "Política Nacional de Desenvolvimento Regional (PNDR)",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art26"
+      },
+      {
+        "id": "integracao-a2",
+        "text": "Política Nacional de Proteção e Defesa Civil (PNPDEC)",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art26"
+      },
+      {
+        "id": "integracao-a3",
+        "text": "Política Nacional de Irrigação, observadas as competências do Ministério da Agricultura e Pecuária",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art26"
+      },
+      {
+        "id": "integracao-a4",
+        "text": "formulação e gestão da Política Nacional de Ordenamento Territorial",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art26"
+      },
+      {
+        "id": "integracao-a5",
+        "text": "estabelecimento de diretrizes e de prioridades na aplicação dos recursos dos programas de financiamento de que trata a alínea c do inciso I do caput do art. 159 da Constituição Federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art26"
+      },
+      {
+        "id": "integracao-a6",
+        "text": "estabelecimento de normas para o cumprimento dos programas de financiamento relativos ao Fundo Constitucional de Financiamento do Norte (FNO), ao Fundo Constitucional de Financiamento do Nordeste (FNE) e ao Fundo Constitucional de Financiamento do Centro-Oeste (FCO), inclusive para integração ao Programa Nacional de Microcrédito Produtivo Orientado (PNMPO) e demais programas relacionados à PNDR",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art26"
+      },
+      {
+        "id": "integracao-a7",
+        "text": "estabelecimento de normas para o cumprimento das programações orçamentárias do Fundo de Investimentos da Amazônia (Finam) e do Fundo de Investimentos do Nordeste (Finor)",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art26"
+      },
+      {
+        "id": "integracao-a8",
+        "text": "estabelecimento de normas e o efetivo repasse, com o desembolso dos bancos administradores dos recursos dos Fundos Constitucionais de Financiamento às entidades autorizadas pelo Ministério do Trabalho e Emprego para participar ou operar o PNMPO, de que trata a Lei nº 13.636, de 20 de março de 2018, com capacidade técnica comprovada, no estrito cumprimento das diretrizes e das normas estabelecidas, para programas de crédito especificamente criados com essa finalidade",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art26"
+      },
+      {
+        "id": "integracao-a9",
+        "text": "estabelecimento de diretrizes e de prioridades na aplicação dos recursos do Fundo de Desenvolvimento da Amazônia (FDA), do Fundo de Desenvolvimento do Nordeste (FDNE) e do Fundo de Desenvolvimento do Centro-Oeste (FDCO); e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art26"
+      },
+      {
+        "id": "integracao-a10",
+        "text": "planos, programas, projetos e ações de: a) desenvolvimento regional; b) (VETADO); c) infraestrutura e garantia da segurança hídrica; d) irrigação; e e) proteção e defesa civil e de gestão de riscos e desastres.",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art26"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "agricultura",
+    "name": "Agricultura e Pecuária",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19",
+    "article": "19",
+    "attributes": [
+      {
+        "id": "agricultura-a1",
+        "text": "política agrícola, abrangidos a produção, a comercialização e o seguro rural",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a2",
+        "text": "produção e fomento agropecuário, abrangidas a agricultura, a pecuária, a agroindústria, a agroenergia, a heveicultura e, em articulação com o Ministério do Meio Ambiente e Mudança do Clima, as florestas plantadas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a3",
+        "text": "informação agropecuária",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a4",
+        "text": "defesa agropecuária e segurança do alimento, abrangidos: a) a saúde animal e a sanidade vegetal; b) os insumos agropecuários, incluída a proteção de cultivares; c) os alimentos, os produtos, os derivados e os subprodutos de origem animal, inclusive pescados, e vegetal; d) a padronização e a classificação de produtos e de insumos agropecuários; e e) o controle de resíduos e de contaminantes em alimentos;",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a5",
+        "text": "pesquisa em agricultura, pecuária, sistemas agroflorestais, aquicultura e agroindústria",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a6",
+        "text": "conservação e proteção de recursos genéticos de interesse para a agropecuária e a alimentação",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a7",
+        "text": "assistência técnica e extensão rural",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a8",
+        "text": "irrigação e infraestrutura hídrica para a produção agropecuária, observadas as competências do Ministério da Integração e do Desenvolvimento Regional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a9",
+        "text": "informação meteorológica e climatológica para uso na agropecuária",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a10",
+        "text": "desenvolvimento rural sustentável",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a11",
+        "text": "conservação e manejo do solo e da água, destinados ao processo produtivo agrícola e pecuário e aos sistemas agroflorestais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a12",
+        "text": "boas práticas agropecuárias e bem-estar animal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a13",
+        "text": "cooperativismo e associativismo na agropecuária",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a14",
+        "text": "energização rural e agroenergia, incluída a eletrificação rural",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a15",
+        "text": "negociações internacionais relativas aos temas de interesse das cadeias de valor da agropecuária",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a16",
+        "text": "garantia de preços mínimos, à exceção dos produtos da sociobiodiversidade",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a17",
+        "text": "comercialização, abastecimento, armazenagem e garantia de preços mínimos; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      },
+      {
+        "id": "agricultura-a18",
+        "text": "produção e divulgação de informações dos sistemas agrícolas e pecuários",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art19"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "cultura",
+    "name": "Cultura",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art21",
+    "article": "21",
+    "attributes": [
+      {
+        "id": "cultura-a1",
+        "text": "política nacional de cultura e política nacional das artes",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art21"
+      },
+      {
+        "id": "cultura-a2",
+        "text": "proteção do patrimônio histórico, artístico e cultural",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art21"
+      },
+      {
+        "id": "cultura-a3",
+        "text": "regulação dos direitos autorais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art21"
+      },
+      {
+        "id": "cultura-a4",
+        "text": "assistência ao Ministério do Desenvolvimento Agrário e Agricultura Familiar e ao Instituto Nacional de Colonização e Reforma Agrária (Incra) nas ações de regularização fundiária, para garantir a preservação da identidade cultural dos remanescentes das comunidades dos quilombos, observadas as competências do Ministério da Igualdade Racial",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art21"
+      },
+      {
+        "id": "cultura-a5",
+        "text": "proteção e promoção da diversidade cultural",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art21"
+      },
+      {
+        "id": "cultura-a6",
+        "text": "desenvolvimento econômico da cultura e da política de economia criativa",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art21"
+      },
+      {
+        "id": "cultura-a7",
+        "text": "desenvolvimento e implementação de políticas e de ações de acessibilidade cultural; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art21"
+      },
+      {
+        "id": "cultura-a8",
+        "text": "formulação e implementação de políticas, de programas e de ações para o desenvolvimento do setor museal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art21"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "comunicacoes",
+    "name": "Comunicações",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art23",
+    "article": "23",
+    "attributes": [
+      {
+        "id": "comunicacoes-a1",
+        "text": "política nacional de telecomunicações",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art23"
+      },
+      {
+        "id": "comunicacoes-a2",
+        "text": "política nacional de radiodifusão",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art23"
+      },
+      {
+        "id": "comunicacoes-a3",
+        "text": "política nacional de conectividade e de inclusão digital",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art23"
+      },
+      {
+        "id": "comunicacoes-a4",
+        "text": "serviços postais, serviços digitais, telecomunicações e radiodifusão; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art23"
+      },
+      {
+        "id": "comunicacoes-a5",
+        "text": "rede nacional de comunicações, incluída a rede privativa de comunicação da administração pública federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art23"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "desenvolvimento-agrario",
+    "name": "Desenvolvimento Agrário e Agricultura Familiar",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25",
+    "article": "25",
+    "attributes": [
+      {
+        "id": "desenvolvimento-agrario-a1",
+        "text": "reforma agrária e regularização fundiária em áreas rurais da União e do Incra",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a2",
+        "text": "acesso à terra e ao território por povos e comunidades tradicionais, observadas as competências do Ministério da Igualdade Racial",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a3",
+        "text": "cadastros de imóveis rurais e governança fundiária",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a4",
+        "text": "identificação, reconhecimento, delimitação, demarcação e titulação de terras de comunidades quilombolas, observadas as competências do Ministério da Igualdade Racial",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a5",
+        "text": "desenvolvimento rural sustentável direcionado à agricultura familiar, aos quilombolas e a outros povos e comunidades tradicionais, observadas as competências do Ministério da Igualdade Racial e do Ministério do Meio Ambiente e Mudança do Clima",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a6",
+        "text": "política agrícola para a agricultura familiar, abrangidos produção, crédito, seguro, fomento e inclusão produtiva, armazenagem, apoio à comercialização e abastecimento alimentar",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a7",
+        "text": "sistemas agroalimentares em territórios rurais e urbanos, agricultura urbana e periurbana",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a8",
+        "text": "cadastro nacional da agricultura familiar",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a9",
+        "text": "cooperativismo, associativismo rural e sistemas agroindustriais da agricultura familiar",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a10",
+        "text": "energização rural e energias renováveis destinadas à agricultura familiar",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a11",
+        "text": "assistência técnica e extensão rural direcionadas à agricultura familiar rural, urbana e periurbana e a ocupações intencionais em áreas de agroecologia, conservação e preservação ambiental e de turismo rural",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a12",
+        "text": "infraestrutura hídrica para produção agropecuária e sistemas agrícolas e pecuários adaptados à agricultura familiar, observadas as competências do Ministério da Integração e do Desenvolvimento Regional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a13",
+        "text": "conservação e manejo dos recursos naturais vinculados à agricultura familiar",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a14",
+        "text": "pesquisa e inovação tecnológica relacionadas à agricultura familiar e à agroecologia",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a15",
+        "text": "cooperativismo e associativismo rural da agricultura familiar e da agroecologia",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a16",
+        "text": "biodiversidade, conservação, proteção e uso de patrimônio genético de interesse da agricultura familiar",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a17",
+        "text": "promoção da educação no campo que valorize a identidade e a cultura dos povos do campo, das águas e da floresta em uma perspectiva de formação humana e de desenvolvimento local sustentável",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a18",
+        "text": "políticas de fomento e de etnodesenvolvimento no âmbito da agricultura familiar e de povos e comunidades tradicionais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a19",
+        "text": "recuperação e conservação de áreas degradadas no âmbito do desenvolvimento rural sustentável, observadas as competências do Ministério do Meio Ambiente e Mudança do Clima",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a20",
+        "text": "promoção da produção de alimentos saudáveis por meio da transição agroecológica",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a21",
+        "text": "promoção de ações de fomento à produção de alimentos para geração de renda para agricultura familiar",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a22",
+        "text": "estoques reguladores e estratégicos de produtos agropecuários",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a23",
+        "text": "sistemas locais de abastecimento alimentar e de compras públicas de produtos e de alimentos da agricultura familiar",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a24",
+        "text": "produção e divulgação de informações da agricultura familiar e da sociobiodiversidade",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a25",
+        "text": "garantia de preços mínimos dos produtos da agricultura familiar e da sociobiodiversidade; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      },
+      {
+        "id": "desenvolvimento-agrario-a26",
+        "text": "comercialização dos produtos da agricultura familiar",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art25"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "direitos-humanos",
+    "name": "Direitos Humanos e Cidadania",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art28",
+    "article": "28",
+    "attributes": [
+      {
+        "id": "direitos-humanos-a1",
+        "text": "políticas e diretrizes destinadas à promoção dos direitos humanos, incluídos os direitos: a) da pessoa idosa; b) da criança e do adolescente; c) da pessoa com deficiência; d) das pessoas LGBTQIA+; e) da população em situação de rua; e f) de grupos sociais vulnerabilizados;",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art28"
+      },
+      {
+        "id": "direitos-humanos-a2",
+        "text": "articulação de políticas e apoio a iniciativas destinadas à defesa dos direitos humanos, com respeito aos fundamentos constitucionais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art28"
+      },
+      {
+        "id": "direitos-humanos-a3",
+        "text": "exercício da função de ouvidoria nacional em assuntos relativos aos direitos humanos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art28"
+      },
+      {
+        "id": "direitos-humanos-a4",
+        "text": "políticas de educação em direitos humanos, para promoção do reconhecimento e da valorização da dignidade da pessoa humana em sua integralidade",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art28"
+      },
+      {
+        "id": "direitos-humanos-a5",
+        "text": "combate a todas as formas de violência, de preconceito, de discriminação e de intolerância; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art28"
+      },
+      {
+        "id": "direitos-humanos-a6",
+        "text": "articulação, promoção, acompanhamento e avaliação da execução dos programas de cooperação com organismos nacionais e internacionais, públicos e privados, destinados à promoção e à defesa dos direitos humanos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art28"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "esporte",
+    "name": "Esporte",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art31",
+    "article": "31",
+    "attributes": [
+      {
+        "id": "esporte-a1",
+        "text": "políticas relacionadas ao esporte",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art31"
+      },
+      {
+        "id": "esporte-a2",
+        "text": "intercâmbio com organismos nacionais, internacionais e estrangeiros, públicos e privados, destinados à promoção do esporte",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art31"
+      },
+      {
+        "id": "esporte-a3",
+        "text": "estímulo às iniciativas públicas e privadas de incentivo às atividades esportivas; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art31"
+      },
+      {
+        "id": "esporte-a4",
+        "text": "planejamento, coordenação, supervisão e avaliação dos planos e dos programas de incentivo aos esportes e de ações de democratização da prática esportiva e de inclusão social por meio do esporte",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art31"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "gestao",
+    "name": "Gestão e Inovação em Serviços Públicos",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art32",
+    "article": "32",
+    "attributes": [
+      {
+        "id": "gestao-a1",
+        "text": "diretrizes, normas e procedimentos direcionados à gestão pública eficiente, eficaz, efetiva e inovadora para geração de valor público e redução das desigualdades",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art32"
+      },
+      {
+        "id": "gestao-a2",
+        "text": "política de gestão de pessoas e de desenvolvimento de competências transversais e de liderança para o quadro de servidores da administração pública federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art32"
+      },
+      {
+        "id": "gestao-a3",
+        "text": "inovação em serviços públicos, simplificação e aumento da eficiência e da eficácia das políticas públicas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art32"
+      },
+      {
+        "id": "gestao-a4",
+        "text": "transformação digital dos serviços públicos e governança e compartilhamento de dados",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art32"
+      },
+      {
+        "id": "gestao-a5",
+        "text": "coordenação e gestão dos sistemas estruturadores de organização e inovação institucional, de serviços gerais, de pessoal civil, da administração dos recursos de tecnologia da informação, de gestão de parcerias e de gestão de documentos e arquivos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art32"
+      },
+      {
+        "id": "gestao-a6",
+        "text": "supervisão e execução de atividades administrativas do Ministério e de outros órgãos e entidades da administração pública federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art32"
+      },
+      {
+        "id": "gestao-a7",
+        "text": "diretrizes, normas e procedimentos para a administração do patrimônio imobiliário da União",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art32"
+      },
+      {
+        "id": "gestao-a8",
+        "text": "diretrizes, coordenação e definição de critérios de governança corporativa das empresas estatais federais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art32"
+      },
+      {
+        "id": "gestao-a9",
+        "text": "política nacional de arquivos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art32"
+      },
+      {
+        "id": "gestao-a10",
+        "text": "políticas e diretrizes para transformação permanente do Estado e ampliação da capacidade estatal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art32"
+      },
+      {
+        "id": "gestao-a11",
+        "text": "cooperação federativa nos temas de competência do Ministério",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art32"
+      },
+      {
+        "id": "gestao-a12",
+        "text": "gestão do Cadastro Ambiental Rural (CAR) em âmbito federal; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art32"
+      },
+      {
+        "id": "gestao-a13",
+        "text": "supervisão e estabelecimento de normas e de procedimentos para o planejamento e a execução das compras públicas e governamentais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art32"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "igualdade-racial",
+    "name": "Igualdade Racial",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art33",
+    "article": "33",
+    "attributes": [
+      {
+        "id": "igualdade-racial-a1",
+        "text": "políticas e diretrizes destinadas à promoção da igualdade racial e étnica",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art33"
+      },
+      {
+        "id": "igualdade-racial-a2",
+        "text": "políticas de ações afirmativas e de combate e superação do racismo",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art33"
+      },
+      {
+        "id": "igualdade-racial-a3",
+        "text": "políticas para quilombolas, povos de comunidades tradicionais de matriz africana, povos de terreiro e ciganos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art33"
+      },
+      {
+        "id": "igualdade-racial-a4",
+        "text": "políticas para a proteção e o fortalecimento dos povos de comunidades tradicionais de matriz africana e povos de terreiro",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art33"
+      },
+      {
+        "id": "igualdade-racial-a5",
+        "text": "articulação, promoção, acompanhamento e avaliação da execução dos programas de cooperação com organismos nacionais e internacionais, públicos e privados, destinados à implementação da promoção da igualdade racial e étnica, das ações afirmativas e do combate e superação do racismo",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art33"
+      },
+      {
+        "id": "igualdade-racial-a6",
+        "text": "coordenação e monitoramento na implementação de políticas intersetoriais e transversais de igualdade racial, de ações afirmativas e de combate e superação do racismo",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art33"
+      },
+      {
+        "id": "igualdade-racial-a7",
+        "text": "auxílio e proposição aos órgãos competentes na elaboração do plano plurianual, da lei de diretrizes orçamentárias e da lei orçamentária para atender de forma transversal à promoção da igualdade racial, das ações afirmativas e do combate e superação do racismo",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art33"
+      },
+      {
+        "id": "igualdade-racial-a8",
+        "text": "coordenação das ações no âmbito do Sistema Nacional de Promoção da Igualdade Racial (Sinapir); e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art33"
+      },
+      {
+        "id": "igualdade-racial-a9",
+        "text": "acompanhamento e avaliação dos programas de ações afirmativas de promoção da igualdade racial",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art33"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "industria",
+    "name": "Desenvolvimento, Indústria, Comércio e Serviços",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art34",
+    "article": "34",
+    "attributes": [
+      {
+        "id": "industria-a1",
+        "text": "política de desenvolvimento da indústria, do comércio e dos serviços",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art34"
+      },
+      {
+        "id": "industria-a2",
+        "text": "propriedade intelectual e transferência de tecnologia",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art34"
+      },
+      {
+        "id": "industria-a3",
+        "text": "metrologia, normalização e qualidade industrial",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art34"
+      },
+      {
+        "id": "industria-a4",
+        "text": "políticas de comércio exterior",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art34"
+      },
+      {
+        "id": "industria-a5",
+        "text": "regulamentação e execução dos programas e das atividades relativos ao comércio exterior",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art34"
+      },
+      {
+        "id": "industria-a6",
+        "text": "aplicação dos mecanismos de defesa comercial",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art34"
+      },
+      {
+        "id": "industria-a7",
+        "text": "participação em negociações internacionais relativas ao comércio exterior",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art34"
+      },
+      {
+        "id": "industria-a8",
+        "text": "desenvolvimento da economia verde, da descarbonização e da bioeconomia, no âmbito da indústria, do comércio e dos serviços",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art34"
+      },
+      {
+        "id": "industria-a9",
+        "text": "políticas, programas e ações de apoio à microempresa, à empresa de pequeno porte e ao microempreendedor",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art34"
+      },
+      {
+        "id": "industria-a10",
+        "text": "registro público de empresas mercantis e atividades afins; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art34"
+      },
+      {
+        "id": "industria-a11",
+        "text": "fomento e desenvolvimento tecnológico de fármacos e de medicamentos produzidos pela indústria nacional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art34"
+      },
+      {
+        "id": "industria-a12",
+        "text": "a Agência Brasileira de Desenvolvimento Industrial (ABDI), para execução das finalidades previstas na Lei nº 11.080, de 30 de dezembro de 2004; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art34"
+      },
+      {
+        "id": "industria-a13",
+        "text": "a Agência de Promoção de Exportações do Brasil (Apex-Brasil), para execução das finalidades previstas na Lei nº 10.668, de 14 de maio de 2003",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art34"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "meio-ambiente",
+    "name": "Meio Ambiente e Mudança do Clima",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art36",
+    "article": "36",
+    "attributes": [
+      {
+        "id": "meio-ambiente-a1",
+        "text": "política nacional do meio ambiente",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art36"
+      },
+      {
+        "id": "meio-ambiente-a2",
+        "text": "política nacional sobre mudança do clima",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art36"
+      },
+      {
+        "id": "meio-ambiente-a3",
+        "text": "política de preservação, conservação e utilização sustentável de ecossistemas, biodiversidade e florestas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art36"
+      },
+      {
+        "id": "meio-ambiente-a4",
+        "text": "gestão de florestas públicas para a produção sustentável",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art36"
+      },
+      {
+        "id": "meio-ambiente-a5",
+        "text": "estratégias, mecanismos e instrumentos regulatórios e econômicos para a melhoria da qualidade ambiental e o uso sustentável dos recursos naturais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art36"
+      },
+      {
+        "id": "meio-ambiente-a6",
+        "text": "políticas para a integração da proteção ambiental com a produção econômica",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art36"
+      },
+      {
+        "id": "meio-ambiente-a7",
+        "text": "políticas para a integração entre a política ambiental e a política energética",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art36"
+      },
+      {
+        "id": "meio-ambiente-a8",
+        "text": "políticas de proteção e de recuperação da vegetação nativa",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art36"
+      },
+      {
+        "id": "meio-ambiente-a9",
+        "text": "políticas e programas ambientais para a Amazônia e para os demais biomas brasileiros",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art36"
+      },
+      {
+        "id": "meio-ambiente-a10",
+        "text": "zoneamento ecológico-econômico e outros instrumentos de ordenamento territorial, incluído o planejamento espacial marinho, em articulação com outros Ministérios competentes",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art36"
+      },
+      {
+        "id": "meio-ambiente-a11",
+        "text": "qualidade ambiental dos assentamentos humanos, em articulação com o Ministério das Cidades",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art36"
+      },
+      {
+        "id": "meio-ambiente-a12",
+        "text": "política nacional de educação ambiental, em articulação com o Ministério da Educação",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art36"
+      },
+      {
+        "id": "meio-ambiente-a13",
+        "text": "gestão compartilhada dos recursos pesqueiros, em articulação com o Ministério da Pesca e Aquicultura; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art36"
+      },
+      {
+        "id": "meio-ambiente-a14",
+        "text": "políticas de proteção de espécies ameaçadas de extinção",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art36"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "minas-energia",
+    "name": "Minas e Energia",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art37",
+    "article": "37",
+    "attributes": [
+      {
+        "id": "minas-energia-a1",
+        "text": "políticas nacionais de geologia, de exploração e de produção de recursos minerais e energéticos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art37"
+      },
+      {
+        "id": "minas-energia-a2",
+        "text": "políticas nacionais de aproveitamento dos recursos hídricos, eólicos, fotovoltaicos e de demais fontes para fins de energia elétrica",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art37"
+      },
+      {
+        "id": "minas-energia-a3",
+        "text": "política nacional de mineração e transformação mineral",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art37"
+      },
+      {
+        "id": "minas-energia-a4",
+        "text": "diretrizes para o planejamento dos setores de minas e de energia",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art37"
+      },
+      {
+        "id": "minas-energia-a5",
+        "text": "política nacional do petróleo, do combustível, do biocombustível, do gás natural e de energia elétrica, inclusive nuclear",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art37"
+      },
+      {
+        "id": "minas-energia-a6",
+        "text": "diretrizes para as políticas tarifárias",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art37"
+      },
+      {
+        "id": "minas-energia-a7",
+        "text": "energização rural e agroenergia, inclusive eletrificação rural, quando custeada com recursos vinculados ao setor elétrico",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art37"
+      },
+      {
+        "id": "minas-energia-a8",
+        "text": "políticas nacionais de integração do sistema elétrico e de integração eletroenergética com outros países",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art37"
+      },
+      {
+        "id": "minas-energia-a9",
+        "text": "políticas nacionais de sustentabilidade e de desenvolvimento econômico, social e ambiental dos recursos elétricos, energéticos e minerais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art37"
+      },
+      {
+        "id": "minas-energia-a10",
+        "text": "elaboração e aprovação das outorgas relativas aos setores de minas e de energia",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art37"
+      },
+      {
+        "id": "minas-energia-a11",
+        "text": "avaliação ambiental estratégica, quando couber, em conjunto com o Ministério do Meio Ambiente e Mudança do Clima e os demais órgãos relacionados",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art37"
+      },
+      {
+        "id": "minas-energia-a12",
+        "text": "participação em negociações internacionais relativas aos setores de minas e de energia; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art37"
+      },
+      {
+        "id": "minas-energia-a13",
+        "text": "fomento ao desenvolvimento e adoção de novas tecnologias relativas aos setores de minas e de energia",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art37"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "mulheres",
+    "name": "Mulheres",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art38",
+    "article": "38",
+    "attributes": [
+      {
+        "id": "mulheres-a1",
+        "text": "formulação, coordenação e execução de políticas e diretrizes de garantia dos direitos das mulheres",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art38"
+      },
+      {
+        "id": "mulheres-a2",
+        "text": "políticas para as mulheres",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art38"
+      },
+      {
+        "id": "mulheres-a3",
+        "text": "articulação e acompanhamento de políticas para as mulheres nas 3 (três) esferas federativas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art38"
+      },
+      {
+        "id": "mulheres-a4",
+        "text": "articulação intersetorial e transversal em conjunto com os órgãos e as entidades, públicos e privados, e as organizações da sociedade civil",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art38"
+      },
+      {
+        "id": "mulheres-a5",
+        "text": "articulação, promoção e execução de programas de cooperação com organismos nacionais e internacionais, públicos e privados, para a implementação de políticas para as mulheres",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art38"
+      },
+      {
+        "id": "mulheres-a6",
+        "text": "elaboração e implementação de campanhas educativas e antidiscriminatórias de abrangência nacional; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art38"
+      },
+      {
+        "id": "mulheres-a7",
+        "text": "acompanhamento da implementação da legislação sobre ações afirmativas e definição de ações para o cumprimento de acordos, de convenções e de planos de ação sobre a garantia da igualdade de gênero e do combate à discriminação",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art38"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "pesca",
+    "name": "Pesca e Aquicultura",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39",
+    "article": "39",
+    "attributes": [
+      {
+        "id": "pesca-a1",
+        "text": "formulação e normatização da política nacional da aquicultura e da pesca e promoção do desenvolvimento sustentável da cadeia produtiva e da produção de alimentos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a2",
+        "text": "políticas, iniciativas e estratégias de gestão participativa do uso sustentável dos recursos pesqueiros",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a3",
+        "text": "organização e manutenção do Registro Geral da Atividade Pesqueira",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a4",
+        "text": "estabelecimento de normas, de critérios, de padrões e de medidas de ordenamento do uso sustentável dos recursos pesqueiros e da aquicultura, em articulação com o Ministério do Meio Ambiente e Mudança do Clima",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a5",
+        "text": "concessão de licenças, permissões e autorizações para o exercício da aquicultura e das seguintes modalidades de pesca no território nacional: a) pesca comercial, artesanal e industrial; b) pesca de espécimes ornamentais; c) pesca de subsistência; e d) pesca amadora ou desportiva;",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a6",
+        "text": "autorização de arrendamento e nacionalização de embarcações de pesca e de sua operação, observados os limites de sustentabilidade",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a7",
+        "text": "implementação da política de concessão da subvenção econômica ao preço do óleo diesel instituída pela Lei nº 9.445, de 14 de março de 1997",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a8",
+        "text": "fornecimento ao Ministério do Meio Ambiente e Mudança do Clima dos dados do Registro Geral da Atividade Pesqueira relativos às licenças, às permissões e às autorizações concedidas para a pesca e a aquicultura, para fins de registro automático no Cadastro Técnico Federal de Atividades Potencialmente Poluidoras e Utilizadoras de Recursos Ambientais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a9",
+        "text": "elaboração, execução, acompanhamento e avaliação dos planos, dos programas e das ações, no âmbito de suas competências",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a10",
+        "text": "promoção e articulação intrassetorial e intersetorial necessária à execução de atividades aquícola e pesqueira",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a11",
+        "text": "elaboração e execução, diretamente ou por meio de parceria, de planos, de programas e de projetos de pesquisa aquícola e pesqueira e monitoramento de estoques de pesca",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a12",
+        "text": "realização da estatística pesqueira, diretamente ou por meio de parceria com instituições, com organizações ou com entidades",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a13",
+        "text": "promoção da modernização e da implantação de infraestrutura e de sistemas de apoio à produção pesqueira ou aquícola e ao beneficiamento e à comercialização do pescado, inclusive quanto à difusão de tecnologia, à extensão aquícola e pesqueira e à capacitação",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a14",
+        "text": "administração de terminais pesqueiros públicos, de forma direta ou indireta",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a15",
+        "text": "instituição e auditoria do programa de controle sanitário das embarcações de pesca, exceto de barcos-fábrica",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a16",
+        "text": "subsídio, assessoramento e participação, em interação com o Ministério das Relações Exteriores, em negociações e eventos que envolvam o comprometimento de direitos e a interferência em interesses nacionais sobre a pesca e aquicultura; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      },
+      {
+        "id": "pesca-a17",
+        "text": "celebração de contratos administrativos, de convênios, de contratos de repasse, de termos de parceria e de cooperação, de acordos, de ajustes e de instrumentos congêneres, no âmbito de suas competências",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art39"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "planejamento",
+    "name": "Planejamento e Orçamento",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art40",
+    "article": "40",
+    "attributes": [
+      {
+        "id": "planejamento-a1",
+        "text": "elaboração de subsídios para o planejamento e a formulação de políticas públicas de longo prazo destinadas ao desenvolvimento nacional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art40"
+      },
+      {
+        "id": "planejamento-a2",
+        "text": "avaliação dos impactos socioeconômicos das políticas e dos programas do governo federal e elaboração de estudos especiais para a reformulação de políticas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art40"
+      },
+      {
+        "id": "planejamento-a3",
+        "text": "elaboração de estudos e pesquisas para acompanhamento da conjuntura socioeconômica e gestão dos sistemas cartográficos e estatísticos nacionais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art40"
+      },
+      {
+        "id": "planejamento-a4",
+        "text": "elaboração, acompanhamento e avaliação do plano plurianual, da lei de diretrizes orçamentárias e do orçamento anual",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art40"
+      },
+      {
+        "id": "planejamento-a5",
+        "text": "viabilização de novas fontes de recursos para os planos de governo",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art40"
+      },
+      {
+        "id": "planejamento-a6",
+        "text": "formulação de diretrizes, acompanhamento e avaliação de financiamentos externos de projetos públicos com organismos multilaterais e com agências governamentais; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art40"
+      },
+      {
+        "id": "planejamento-a7",
+        "text": "coordenação e gestão do sistema de planejamento e de orçamento federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art40"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "portos",
+    "name": "Portos e Aeroportos",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41",
+    "article": "41",
+    "attributes": [
+      {
+        "id": "portos-a1",
+        "text": "política nacional de transportes aquaviário e aeroviário",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a2",
+        "text": "marinha mercante e vias navegáveis",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a3",
+        "text": "formulação de políticas e diretrizes para o desenvolvimento e o fomento do setor de portos e de instalações portuárias marítimos, fluviais e lacustres e execução e avaliação de medidas, de programas e de projetos de apoio ao desenvolvimento da infraestrutura e da superestrutura dos portos e das instalações portuárias marítimos, fluviais e lacustres",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a4",
+        "text": "formulação, coordenação e supervisão das políticas nacionais do setor de portos e de instalações portuárias marítimos, fluviais e lacustres",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a5",
+        "text": "participação no planejamento estratégico, no estabelecimento de diretrizes para sua implementação e na definição das prioridades dos programas de investimentos em transportes aquaviário e aeroviário, em articulação com o Ministério dos Transportes",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a6",
+        "text": "elaboração ou aprovação dos planos de outorgas, na forma prevista em legislação específica",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a7",
+        "text": "estabelecimento de diretrizes para a representação do País em organismos internacionais e em convenções, em acordos e em tratados relativos às suas competências",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a8",
+        "text": "desenvolvimento da infraestrutura e da superestrutura aquaviária dos portos e das instalações portuárias marítimos, fluviais e lacustres em seu âmbito de competência, com a finalidade de promover a segurança e a eficiência do transporte aquaviário de cargas e de passageiros; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a9",
+        "text": "aviação civil e infraestruturas aeroportuária e de aeronáutica civil, em articulação, no que couber, com o Ministério da Defesa",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a10",
+        "text": "a formulação, a coordenação e a supervisão das políticas nacionais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a11",
+        "text": "a formulação e a supervisão da execução da política referente ao Fundo da Marinha Mercante, destinado à renovação, à recuperação e à ampliação da frota mercante nacional, em articulação com o Ministério da Fazenda",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a12",
+        "text": "o estabelecimento de diretrizes para afretamento de embarcações estrangeiras por empresas brasileiras de navegação e para liberação do transporte de cargas prescritas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a13",
+        "text": "a elaboração de estudos e projeções relativos aos assuntos de aviação civil e de infraestruturas aeroportuária e aeronáutica civil e relativos à logística do transporte aéreo e do transporte intermodal e multimodal, ao longo de eixos e fluxos de produção, em articulação com o Ministério dos Transportes e os demais órgãos governamentais competentes, com atenção às exigências de mobilidade urbana e de acessibilidade",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a14",
+        "text": "a declaração de utilidade pública, para fins de desapropriação, de supressão vegetal ou de instituição de servidão administrativa, dos bens necessários à construção, à manutenção e à expansão da infraestrutura em transportes, na forma prevista em legislação específica",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a15",
+        "text": "a coordenação dos órgãos e das entidades do sistema de aviação civil, em articulação, no que couber, com o Ministério da Defesa",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a16",
+        "text": "a transferência para os Estados, o Distrito Federal ou os Municípios da implantação, da administração, da operação, da manutenção e da exploração da infraestrutura integrante do Sistema Federal de Viação, excluídos os órgãos, os serviços, as instalações e as demais estruturas necessárias à operação regular e segura da navegação aérea",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a17",
+        "text": "a atribuição da infraestrutura aeroportuária; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      },
+      {
+        "id": "portos-a18",
+        "text": "a aprovação dos planos de zoneamento civil e militar dos aeródromos públicos de uso compartilhado, em conjunto com o Comando da Aeronáutica do Ministério da Defesa",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art41"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "povos-indigenas",
+    "name": "Povos Indígenas",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art42",
+    "article": "42",
+    "attributes": [
+      {
+        "id": "povos-indigenas-a1",
+        "text": "política indigenista",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art42"
+      },
+      {
+        "id": "povos-indigenas-a2",
+        "text": "reconhecimento, garantia e promoção dos direitos dos povos indígenas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art42"
+      },
+      {
+        "id": "povos-indigenas-a3",
+        "text": "defesa, usufruto exclusivo e gestão das terras e dos territórios indígenas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art42"
+      },
+      {
+        "id": "povos-indigenas-a4",
+        "text": "bem viver dos povos indígenas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art42"
+      },
+      {
+        "id": "povos-indigenas-a5",
+        "text": "proteção dos povos indígenas isolados e de recente contato; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art42"
+      },
+      {
+        "id": "povos-indigenas-a6",
+        "text": "acordos e tratados internacionais, especialmente a Convenção nº 169 da Organização Internacional do Trabalho (OIT), adotada em 27 de junho de 1989, quando relacionados aos povos indígenas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art42"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "relacoes-exteriores",
+    "name": "Relações Exteriores",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art44",
+    "article": "44",
+    "attributes": [
+      {
+        "id": "relacoes-exteriores-a1",
+        "text": "assistência direta e imediata ao Presidente da República nas relações com Estados estrangeiros e com organizações internacionais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art44"
+      },
+      {
+        "id": "relacoes-exteriores-a2",
+        "text": "política internacional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art44"
+      },
+      {
+        "id": "relacoes-exteriores-a3",
+        "text": "relações diplomáticas e serviços consulares",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art44"
+      },
+      {
+        "id": "relacoes-exteriores-a4",
+        "text": "coordenação da participação do governo brasileiro em negociações políticas, comerciais, econômicas, financeiras, técnicas e culturais com Estados estrangeiros e com organizações internacionais, em articulação com os demais órgãos competentes",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art44"
+      },
+      {
+        "id": "relacoes-exteriores-a5",
+        "text": "representação do Estado em cortes internacionais e órgãos correlatos e, em articulação com a Advocacia-Geral da União, coordenação da defesa do Estado em litígios e contenciosos internacionais, ouvidos os demais órgãos que possam ter competência sobre a matéria",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art44"
+      },
+      {
+        "id": "relacoes-exteriores-a6",
+        "text": "programas de cooperação internacional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art44"
+      },
+      {
+        "id": "relacoes-exteriores-a7",
+        "text": "apoio a delegações, a comitivas e a representações brasileiras em agências e organismos internacionais e multilaterais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art44"
+      },
+      {
+        "id": "relacoes-exteriores-a8",
+        "text": "planejamento e coordenação de deslocamentos presidenciais no exterior, com o apoio do Gabinete de Segurança Institucional da Presidência da República",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art44"
+      },
+      {
+        "id": "relacoes-exteriores-a9",
+        "text": "coordenação das atividades desenvolvidas pelas assessorias internacionais dos órgãos e das entidades da administração pública federal, inclusive a negociação de tratados, de convenções, de memorandos de entendimento e de demais atos internacionais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art44"
+      },
+      {
+        "id": "relacoes-exteriores-a10",
+        "text": "promoção do comércio exterior, de investimentos e da competitividade internacional do País, em coordenação com as políticas governamentais de comércio exterior; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art44"
+      },
+      {
+        "id": "relacoes-exteriores-a11",
+        "text": "apoio à formulação e à execução da Política Nacional de Migrações, Refúgio e Apatridia",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art44"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "turismo",
+    "name": "Turismo",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art48",
+    "article": "48",
+    "attributes": [
+      {
+        "id": "turismo-a1",
+        "text": "política nacional de desenvolvimento do turismo sustentável",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art48"
+      },
+      {
+        "id": "turismo-a2",
+        "text": "promoção e divulgação do turismo nacional, no País e no exterior",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art48"
+      },
+      {
+        "id": "turismo-a3",
+        "text": "estímulo à inovação, ao empreendedorismo e às iniciativas públicas e privadas de incentivo às atividades turísticas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art48"
+      },
+      {
+        "id": "turismo-a4",
+        "text": "planejamento, coordenação, supervisão e avaliação dos planos e dos programas de incentivo ao turismo",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art48"
+      },
+      {
+        "id": "turismo-a5",
+        "text": "criação de diretrizes para a integração das ações e dos programas para o desenvolvimento do turismo nacional entre os governos federal, estaduais, distrital e municipais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art48"
+      },
+      {
+        "id": "turismo-a6",
+        "text": "formulação, em coordenação com os demais Ministérios, de políticas e de ações destinadas à melhoria da infraestrutura, à geração de emprego e renda, ao enfrentamento de crises, resiliência e ações climáticas nos destinos turísticos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art48"
+      },
+      {
+        "id": "turismo-a7",
+        "text": "incentivo a programas de financiamento e acesso ao crédito e gestão do Fundo Geral de Turismo (Fungetur); e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art48"
+      },
+      {
+        "id": "turismo-a8",
+        "text": "regulação, fiscalização e estímulo à formalização, à certificação e à classificação das atividades, dos empreendimentos e dos equipamentos dos prestadores de serviços turísticos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art48"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "cgu",
+    "name": "Controladoria-Geral da União",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49",
+    "article": "49",
+    "attributes": [
+      {
+        "id": "cgu-a1",
+        "text": "defesa do patrimônio público",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a2",
+        "text": "controle interno e auditoria governamental",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a3",
+        "text": "fiscalização e avaliação de políticas públicas e de programas de governo",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a4",
+        "text": "integridade pública e privada",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a5",
+        "text": "correição e responsabilização de agentes públicos e de entes privados",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a6",
+        "text": "prevenção e combate a fraudes e à corrupção",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a7",
+        "text": "ouvidoria",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a8",
+        "text": "incremento da transparência, dados abertos e acesso à informação",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a9",
+        "text": "promoção da ética pública e prevenção ao nepotismo e aos conflitos de interesses",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a10",
+        "text": "suporte à gestão de riscos; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a11",
+        "text": "articulação com organismos internacionais e com órgãos e entidades, nacionais ou estrangeiros, nos temas que lhe são afetos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a12",
+        "text": "avaliar, com base em abordagem baseada em risco, as políticas públicas, os programas de governo, a ação governamental e a gestão dos administradores públicos federais quanto à legalidade, à legitimidade, à eficácia, à eficiência e à efetividade e quanto à adequação dos processos de gestão de riscos e de controle interno, por intermédio de procedimentos de auditoria e de avaliação de resultados alinhados aos padrões internacionais de auditoria interna e de fiscalização contábil, financeira, orçamentária, operacional e patrimonial",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a13",
+        "text": "realizar inspeções, apurar irregularidades, instaurar sindicâncias, investigações e processos administrativos disciplinares, bem como acompanhar e, quando necessário, avocar os referidos procedimentos em curso em órgãos e em entidades federais para exame de sua regularidade ou condução de seus atos, além de poder promover a declaração de sua nulidade ou propor a adoção de providências ou a correção de falhas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a14",
+        "text": "instaurar processos administrativos de responsabilização de pessoas jurídicas com fundamento na Lei nº 12.846, de 1º de agosto de 2013, acompanhar e, quando necessário, avocar os referidos procedimentos em curso em órgãos e em entidades federais para exame de sua regularidade ou condução de seus atos, além de poder promover a declaração de sua nulidade ou propor a adoção de providências ou a correção de falhas, bem como celebrar, quando cabível, acordo de leniência ou termo de compromisso com pessoas jurídicas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a15",
+        "text": "dar andamento a representações e a denúncias fundamentadas relativas a lesão ou a ameaça de lesão à administração pública e ao patrimônio público federal, bem como a condutas de agentes públicos, de modo a zelar por sua integral apuração",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a16",
+        "text": "monitorar o cumprimento da Lei nº 12.527, de 18 de novembro de 2011, no âmbito do Poder Executivo federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a17",
+        "text": "promover a fiscalização e a avaliação do conflito de interesses, nos termos do art. 8º da Lei nº 12.813, de 16 de maio de 2013",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a18",
+        "text": "analisar a evolução patrimonial dos agentes públicos federais e instaurar sindicância patrimonial ou, conforme o caso, processo administrativo disciplinar, caso haja fundado indício de enriquecimento ilícito ou de evolução patrimonial incompatível com os recursos e as disponibilidades informados na declaração patrimonial",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a19",
+        "text": "requisitar a órgãos ou a entidades da administração pública federal servidores ou empregados necessários à constituição de comissões ou à instrução de processo ou procedimento administrativo de sua competência; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      },
+      {
+        "id": "cgu-a20",
+        "text": "receber reclamações relativas à prestação de serviços públicos em geral e à apuração do exercício negligente de cargo, de emprego ou de função na administração pública federal, quando não houver disposição legal que atribua essas competências específicas a outros órgãos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art49"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "casa-civil",
+    "name": "Casa Civil",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art3",
+    "article": "3",
+    "attributes": [
+      {
+        "id": "casa-civil-a1",
+        "text": "coordenação e integração das ações governamentais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art3"
+      },
+      {
+        "id": "casa-civil-a2",
+        "text": "análise do mérito, da oportunidade e da compatibilidade das propostas, inclusive das matérias em tramitação no Congresso Nacional, com as diretrizes governamentais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art3"
+      },
+      {
+        "id": "casa-civil-a3",
+        "text": "avaliação e monitoramento da ação governamental e da gestão dos órgãos e das entidades da administração pública federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art3"
+      },
+      {
+        "id": "casa-civil-a4",
+        "text": "coordenação e acompanhamento das atividades dos Ministérios e da formulação de projetos e de políticas públicas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art3"
+      },
+      {
+        "id": "casa-civil-a5",
+        "text": "coordenação, monitoramento, avaliação e supervisão das ações do Programa de Parcerias de Investimentos e apoio às ações setoriais necessárias à sua execução",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art3"
+      },
+      {
+        "id": "casa-civil-a6",
+        "text": "implementação de políticas e de ações destinadas à ampliação da infraestrutura pública e das oportunidades de investimento e de emprego",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art3"
+      },
+      {
+        "id": "casa-civil-a7",
+        "text": "coordenação, articulação e fomento de políticas públicas necessárias à retomada e à execução de obras de implantação dos empreendimentos de infraestrutura considerados estratégicos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art3"
+      },
+      {
+        "id": "casa-civil-a8",
+        "text": "verificação prévia da constitucionalidade e da legalidade dos atos presidenciais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art3"
+      },
+      {
+        "id": "casa-civil-a9",
+        "text": "coordenação do processo de sanção e veto de projetos de lei enviados pelo Congresso Nacional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art3"
+      },
+      {
+        "id": "casa-civil-a10",
+        "text": "elaboração e encaminhamento de mensagens do Poder Executivo federal ao Congresso Nacional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art3"
+      },
+      {
+        "id": "casa-civil-a11",
+        "text": "análise prévia e preparação dos atos a serem submetidos ao Presidente da República",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art3"
+      },
+      {
+        "id": "casa-civil-a12",
+        "text": "publicação e preservação dos atos oficiais do Presidente da República",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art3"
+      },
+      {
+        "id": "casa-civil-a13",
+        "text": "supervisão e execução das atividades administrativas da Presidência da República e, supletivamente, da Vice-Presidência da República; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art3"
+      },
+      {
+        "id": "casa-civil-a14",
+        "text": "acompanhamento da ação governamental e do resultado da gestão dos administradores, no âmbito dos órgãos integrantes da Presidência da República e da Vice-Presidência da República, além de outros órgãos determinados em legislação específica, por intermédio da fiscalização contábil, financeira, orçamentária, operacional e patrimonial",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art3"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "secretaria-geral",
+    "name": "Secretaria-Geral da Presidência",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art4",
+    "article": "4",
+    "attributes": [
+      {
+        "id": "secretaria-geral-a1",
+        "text": "coordenar e articular as relações políticas do governo federal com os diferentes segmentos da sociedade civil e da juventude",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art4"
+      },
+      {
+        "id": "secretaria-geral-a2",
+        "text": "coordenar a política e o sistema nacional de participação social",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art4"
+      },
+      {
+        "id": "secretaria-geral-a3",
+        "text": "formular, supervisionar, coordenar, integrar e articular políticas públicas para a juventude",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art4"
+      },
+      {
+        "id": "secretaria-geral-a4",
+        "text": "criar, implementar, articular e monitorar instrumentos de consulta e de participação popular nos órgãos governamentais de interesse do Poder Executivo federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art4"
+      },
+      {
+        "id": "secretaria-geral-a5",
+        "text": "fomentar e estabelecer diretrizes e orientações à gestão de parcerias e relações governamentais com organizações da sociedade civil",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art4"
+      },
+      {
+        "id": "secretaria-geral-a6",
+        "text": "cooperar com os movimentos sociais na articulação das agendas e das ações que fomentem o diálogo, a participação social e a educação popular",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art4"
+      },
+      {
+        "id": "secretaria-geral-a7",
+        "text": "incentivar, em conjunto com os demais órgãos do governo federal, a interlocução, a elaboração e a implementação de políticas públicas em colaboração e diálogo com a sociedade civil e com a juventude",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art4"
+      },
+      {
+        "id": "secretaria-geral-a8",
+        "text": "articular, fomentar e apoiar processos educativo-formativos, em conjunto com os movimentos sociais, no âmbito das políticas públicas do Poder Executivo federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art4"
+      },
+      {
+        "id": "secretaria-geral-a9",
+        "text": "fortalecer e articular os mecanismos e as instâncias democráticas de diálogo e a atuação conjunta entre a administração pública federal e a sociedade civil; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art4"
+      },
+      {
+        "id": "secretaria-geral-a10",
+        "text": "debater com a sociedade civil e com o Poder Executivo federal iniciativas de plebiscitos e de referendos, como mecanismos constitucionais de exercício da soberania popular sobre temas de amplo interesse público",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art4"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "relacoes-institucionais",
+    "name": "Relações Institucionais",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art5",
+    "article": "5",
+    "attributes": [
+      {
+        "id": "relacoes-institucionais-a1",
+        "text": "assistir diretamente o Presidente da República no desempenho de suas atribuições, especialmente nos seguintes aspectos: a) articulação política e relacionamento interinstitucional do governo federal; b) elaboração de estudos de natureza político-institucional, com fornecimento de subsídios e elaboração de material preparatório às agendas presidenciais; c) interlocução com os Estados, com o Distrito Federal e com os Municípios; d) interlocução com o Poder Legislativo e com os partidos políticos; e) relacionamento e articulação com as entidades da sociedade; e f) criação e implementação de instrumentos de consulta e de diálogo social de interesse do governo federal;",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art5"
+      },
+      {
+        "id": "relacoes-institucionais-a2",
+        "text": "coordenar a interlocução do Poder Executivo federal com as organizações internacionais e com as organizações da sociedade civil que atuem no território nacional, acompanhar as ações e os resultados dessas parcerias e implementar boas práticas para efetivação da legislação aplicável",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art5"
+      },
+      {
+        "id": "relacoes-institucionais-a3",
+        "text": "coordenar a integração dos diversos órgãos governamentais no relacionamento do pacto federativo e participar dos processos de pactuação e implantação das políticas públicas em conjunto com os entes subnacionais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art5"
+      },
+      {
+        "id": "relacoes-institucionais-a4",
+        "text": "coordenar a integração das ações dos diversos órgãos governamentais no relacionamento com os poderes legislativos, com os partidos políticos e com a sociedade civil; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art5"
+      },
+      {
+        "id": "relacoes-institucionais-a5",
+        "text": "coordenar e secretariar o funcionamento do Conselho de Desenvolvimento Econômico Social Sustentável, a fim de promover a articulação da sociedade civil para a consecução de modelo de desenvolvimento configurador de novo e amplo contrato social",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art5"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "comunicacao-social",
+    "name": "Comunicação Social",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6",
+    "article": "6",
+    "attributes": [
+      {
+        "id": "comunicacao-social-a1",
+        "text": "formular e implementar a política de comunicação e divulgação social do Poder Executivo federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      },
+      {
+        "id": "comunicacao-social-a2",
+        "text": "coordenar, formular e implementar ações orientadas para o acesso à informação, o exercício de direitos, o combate à desinformação e a defesa da democracia, no âmbito de suas competências",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      },
+      {
+        "id": "comunicacao-social-a3",
+        "text": "auxiliar na política de promoção da liberdade de expressão e de imprensa, no âmbito de suas competências",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      },
+      {
+        "id": "comunicacao-social-a4",
+        "text": "formular políticas para a promoção do pluralismo e da diversidade midiática e para o desenvolvimento do jornalismo profissional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      },
+      {
+        "id": "comunicacao-social-a5",
+        "text": "coordenar e acompanhar a comunicação interministerial e as ações de informação, de difusão e de promoção das políticas do Poder Executivo federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      },
+      {
+        "id": "comunicacao-social-a6",
+        "text": "relacionar-se com os meios de comunicação e com as entidades dos setores de comunicação",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      },
+      {
+        "id": "comunicacao-social-a7",
+        "text": "coordenar a aplicação de pesquisas de opinião pública e outras ações que permitam aferir a percepção e a opinião dos cidadãos sobre perfis, temas e políticas do Poder Executivo federal nos canais digitais",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      },
+      {
+        "id": "comunicacao-social-a8",
+        "text": "coordenar a comunicação interministerial e as ações de informação e de difusão das políticas do Poder Executivo federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      },
+      {
+        "id": "comunicacao-social-a9",
+        "text": "coordenar, normatizar e supervisionar a publicidade e o patrocínio dos órgãos e das entidades da administração pública federal, direta e indireta, e das sociedades sob o controle da União",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      },
+      {
+        "id": "comunicacao-social-a10",
+        "text": "coordenar e consolidar a comunicação do Poder Executivo federal nos canais de comunicação",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      },
+      {
+        "id": "comunicacao-social-a11",
+        "text": "supervisionar as ações de comunicação do País no exterior e a realização de eventos institucionais da Presidência da República com representações e autoridades nacionais e estrangeiras, em articulação com os demais órgãos envolvidos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      },
+      {
+        "id": "comunicacao-social-a12",
+        "text": "convocar as redes obrigatórias de rádio e de televisão",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      },
+      {
+        "id": "comunicacao-social-a13",
+        "text": "apoiar os órgãos integrantes da Presidência da República no relacionamento com a imprensa",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      },
+      {
+        "id": "comunicacao-social-a14",
+        "text": "disciplinar a implementação e a gestão do padrão digital de governo, dos sítios e dos portais eletrônicos dos órgãos e das entidades do Poder Executivo federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      },
+      {
+        "id": "comunicacao-social-a15",
+        "text": "editar normas e manuais sobre a legislação aplicada à comunicação social; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      },
+      {
+        "id": "comunicacao-social-a16",
+        "text": "formular subsídios para os pronunciamentos do Presidente da República",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art6"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "gsi",
+    "name": "Gabinete de Segurança Institucional",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art8",
+    "article": "8",
+    "attributes": [
+      {
+        "id": "gsi-a1",
+        "text": "assistir diretamente o Presidente da República no desempenho de suas atribuições, especialmente quanto a assuntos militares e de segurança",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art8"
+      },
+      {
+        "id": "gsi-a2",
+        "text": "analisar e acompanhar questões com potencial de risco, prevenir a ocorrência de crises e articular seu gerenciamento, em caso de grave e iminente ameaça à estabilidade institucional",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art8"
+      },
+      {
+        "id": "gsi-a3",
+        "text": "coordenar as atividades de segurança da informação e das comunicações",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art8"
+      },
+      {
+        "id": "gsi-a4",
+        "text": "planejar, coordenar e supervisionar a atividade de segurança da informação no âmbito da administração pública federal, incluídos a segurança cibernética, a gestão de incidentes computacionais, a proteção de dados, o credenciamento de segurança e o tratamento de informações sigilosas",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art8"
+      },
+      {
+        "id": "gsi-a5",
+        "text": "zelar, assegurado o exercício do poder de polícia: a) pela segurança pessoal do Presidente da República e do Vice-Presidente da República; b) pela segurança pessoal dos familiares do Presidente da República e do Vice-Presidente da República, quando solicitado pela respectiva autoridade; c) pela segurança dos palácios presidenciais e das residências do Presidente da República e do Vice-Presidente da República; e d) quando determinado pelo Presidente da República, pela segurança pessoal dos titulares dos órgãos da Presidência da República e, excepcionalmente, de outras autoridades federais;",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art8"
+      },
+      {
+        "id": "gsi-a6",
+        "text": "coordenar as atividades do Sistema de Proteção ao Programa Nuclear Brasileiro (Sipron) como seu órgão central",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art8"
+      },
+      {
+        "id": "gsi-a7",
+        "text": "planejar e coordenar: a) os eventos em que haja a presença do Presidente da República, no País, em articulação com o Gabinete Pessoal do Presidente da República, e, no exterior, em articulação com o Ministério das Relações Exteriores; e b) os deslocamentos presidenciais no País e no exterior, nesta última hipótese, em articulação com o Ministério das Relações Exteriores;",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art8"
+      },
+      {
+        "id": "gsi-a8",
+        "text": "acompanhar questões referentes ao setor espacial brasileiro",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art8"
+      },
+      {
+        "id": "gsi-a9",
+        "text": "acompanhar assuntos pertinentes ao terrorismo e às ações destinadas à sua prevenção e à sua neutralização e intercambiar subsídios para a avaliação de risco de ameaça terrorista; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art8"
+      },
+      {
+        "id": "gsi-a10",
+        "text": "acompanhar assuntos pertinentes às infraestruturas críticas, com prioridade aos que se referem à avaliação de riscos",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art8"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "agu",
+    "name": "Advocacia-Geral da União",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art14",
+    "article": "14",
+    "attributes": [
+      {
+        "id": "agu-a1",
+        "text": "assessorar o Presidente da República nos assuntos de natureza jurídica, por meio da elaboração de pareceres e de estudos ou da proposição de normas, de medidas e de diretrizes",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art14"
+      },
+      {
+        "id": "agu-a2",
+        "text": "assistir o Presidente da República no controle interno da legalidade dos atos da administração pública federal",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art14"
+      },
+      {
+        "id": "agu-a3",
+        "text": "sugerir ao Presidente da República medidas de caráter jurídico de interesse público",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art14"
+      },
+      {
+        "id": "agu-a4",
+        "text": "apresentar ao Presidente da República as informações a serem prestadas ao Poder Judiciário quando impugnado ato ou omissão presidencial; e",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art14"
+      },
+      {
+        "id": "agu-a5",
+        "text": "exercer outras atribuições estabelecidas na Lei Complementar nº 73, de 10 de fevereiro de 1993",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm#art14"
+      }
+    ],
+    "custom": false
+  },
+  {
+    "id": "empreendedorismo",
+    "name": "Empreendedorismo, Microempresa e Empresa de Pequeno Porte",
+    "budget": null,
+    "budgetSource": null,
+    "legalSource": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14816.htm",
+    "article": "30-A",
+    "attributes": [
+      {
+        "id": "empreendedorismo-a1",
+        "text": "Políticas de apoio ao empreendedorismo, à microempresa e à empresa de pequeno porte",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14816.htm"
+      }
+    ],
+    "custom": false
+  }
+]

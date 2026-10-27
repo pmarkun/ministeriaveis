@@ -1,0 +1,1132 @@
+[
+  {
+    "id": "carlos-favaro",
+    "name": "Carlos Fávaro",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Agricultura e Pecuária.",
+    "party": "PSD",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Carlos_Fávaro",
+    "photo": "/photos/carlos-favaro.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Carlos_Fávaro",
+    "ministryIds": [
+      "agricultura"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "andre-de-paula",
+    "name": "André de Paula",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Agricultura e Pecuária.",
+    "party": "PSD",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/André_de_Paula",
+    "photo": "/photos/andre-de-paula.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/André_de_Paula",
+    "ministryIds": [
+      "agricultura"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "jader-barbalho-filho",
+    "name": "Jader Barbalho Filho",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Cidades.",
+    "party": "MDB",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Jader_Barbalho_Filho",
+    "photo": "/photos/jader-barbalho-filho.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Jader_Barbalho_Filho",
+    "ministryIds": [
+      "cidades"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "luciana-santos",
+    "name": "Luciana Santos",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Ciência, Tecnologia e Inovação.",
+    "party": "PCdoB",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Luciana_Santos",
+    "photo": "/photos/luciana-santos.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Luciana_Santos",
+    "ministryIds": [
+      "ciencia"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "juscelino-filho",
+    "name": "Juscelino Filho",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Comunicações.",
+    "party": "UNIÃO",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Juscelino_Filho",
+    "photo": "/photos/juscelino-filho.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Juscelino_Filho",
+    "ministryIds": [
+      "comunicacoes"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "frederico-siqueira",
+    "name": "Frederico Siqueira",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Comunicações.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Frederico_Siqueira",
+    "photo": "/photos/frederico-siqueira.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Frederico_Siqueira",
+    "ministryIds": [
+      "comunicacoes"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "margareth-menezes",
+    "name": "Margareth Menezes",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Cultura.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Margareth_Menezes",
+    "photo": "/photos/margareth-menezes.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Margareth_Menezes",
+    "ministryIds": [
+      "agricultura"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "jose-mucio",
+    "name": "José Múcio",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Defesa.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/José_Múcio",
+    "photo": "/photos/jose-mucio.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/José_Múcio",
+    "ministryIds": [
+      "defesa"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "paulo-teixeira",
+    "name": "Paulo Teixeira",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Desenvolvimento Agrário e Agricultura Familiar.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Paulo_Teixeira_(político)",
+    "photo": "/photos/paulo-teixeira.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Paulo_Teixeira_(político)",
+    "ministryIds": [
+      "cultura"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "fernanda-machiaveli",
+    "name": "Fernanda Machiaveli",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Desenvolvimento Agrário e Agricultura Familiar.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Fernanda_Machiaveli",
+    "photo": "/photos/fernanda-machiaveli.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Fernanda_Machiaveli",
+    "ministryIds": [
+      "cultura"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "geraldo-alckmin",
+    "name": "Geraldo Alckmin",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Desenvolvimento, Indústria, Comércio e Serviços.",
+    "party": "PSB",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Geraldo_Alckmin",
+    "photo": "/photos/geraldo-alckmin.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Geraldo_Alckmin",
+    "ministryIds": [
+      "industria"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "marcio-fernando-elias-rosa",
+    "name": "Márcio Fernando Elias Rosa",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Desenvolvimento, Indústria, Comércio e Serviços.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Márcio_Fernando_Elias_Rosa",
+    "photo": "/photos/marcio-fernando-elias-rosa.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Márcio_Fernando_Elias_Rosa",
+    "ministryIds": [
+      "industria"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "wellington-dias",
+    "name": "Wellington Dias",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Desenvolvimento e Assistência Social, Família e Combate à Fome.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Wellington_Dias",
+    "photo": "/photos/wellington-dias.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Wellington_Dias",
+    "ministryIds": [
+      "desenvolvimento-social"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "silvio-almeida",
+    "name": "Silvio Almeida",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Direitos Humanos e Cidadania.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Silvio_Almeida",
+    "photo": "/photos/silvio-almeida.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Silvio_Almeida",
+    "ministryIds": [
+      "direitos-humanos"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "esther-dweck",
+    "name": "Esther Dweck",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Direitos Humanos e Cidadania.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Esther_Dweck",
+    "photo": "/photos/esther-dweck.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Esther_Dweck",
+    "ministryIds": [
+      "direitos-humanos"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "macae-evaristo",
+    "name": "Macaé Evaristo",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Direitos Humanos e Cidadania.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Macaé_Evaristo",
+    "photo": "/photos/macae-evaristo.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Macaé_Evaristo",
+    "ministryIds": [
+      "direitos-humanos"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "camilo-santana",
+    "name": "Camilo Santana",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Educação.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Camilo_Santana",
+    "photo": "/photos/camilo-santana.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Camilo_Santana",
+    "ministryIds": [
+      "educacao"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "leonardo-barchini",
+    "name": "Leonardo Barchini",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Educação.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Leonardo_Barchini",
+    "photo": "/photos/leonardo-barchini.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Leonardo_Barchini",
+    "ministryIds": [
+      "educacao"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "marcio-franca",
+    "name": "Márcio França",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte.",
+    "party": "PSB",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Márcio_França",
+    "photo": "/photos/marcio-franca.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Márcio_França",
+    "ministryIds": [],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "tadeu-alencar",
+    "name": "Tadeu Alencar",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte.",
+    "party": "PSB",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Tadeu_Alencar",
+    "photo": "/photos/tadeu-alencar.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Tadeu_Alencar",
+    "ministryIds": [],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "ana-moser",
+    "name": "Ana Moser",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Esporte.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Ana_Moser",
+    "photo": "/photos/ana-moser.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Ana_Moser",
+    "ministryIds": [
+      "esporte"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "andre-fufuca",
+    "name": "André Fufuca",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Esporte.",
+    "party": "PP",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/André_Fufuca",
+    "photo": "/photos/andre-fufuca.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/André_Fufuca",
+    "ministryIds": [
+      "esporte"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "fernando-haddad",
+    "name": "Fernando Haddad",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Fazenda.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Fernando_Haddad",
+    "photo": "/photos/fernando-haddad.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Fernando_Haddad",
+    "ministryIds": [
+      "fazenda"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "dario-durigan",
+    "name": "Dario Durigan",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Fazenda.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Dario_Durigan",
+    "photo": "/photos/dario-durigan.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Dario_Durigan",
+    "ministryIds": [
+      "fazenda"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "anielle-franco",
+    "name": "Anielle Franco",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Igualdade Racial.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Anielle_Franco",
+    "photo": "/photos/anielle-franco.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Anielle_Franco",
+    "ministryIds": [
+      "igualdade-racial"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "rachel-barros-de-oliveira",
+    "name": "Rachel Barros de Oliveira",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Igualdade Racial.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Rachel_Barros",
+    "photo": "/photos/rachel-barros-de-oliveira.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Rachel_Barros",
+    "ministryIds": [
+      "igualdade-racial"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "waldez-goes",
+    "name": "Waldez Góes",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Integração e Desenvolvimento Regional.",
+    "party": "PDT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Waldez_Góes",
+    "photo": "/photos/waldez-goes.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Waldez_Góes",
+    "ministryIds": [
+      "integracao"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "flavio-dino",
+    "name": "Flávio Dino",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Justiça e Segurança Pública.",
+    "party": "PSB",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Flávio_Dino",
+    "photo": "/photos/flavio-dino.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Flávio_Dino",
+    "ministryIds": [
+      "justica"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "ricardo-lewandowski",
+    "name": "Ricardo Lewandowski",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Justiça e Segurança Pública.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Ricardo_Lewandowski",
+    "photo": "/photos/ricardo-lewandowski.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Ricardo_Lewandowski",
+    "ministryIds": [
+      "justica"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "manoel-carlos-de-almeida-neto",
+    "name": "Manoel Carlos de Almeida Neto",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Justiça e Segurança Pública.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Manoel_Carlos_de_Almeida_Neto",
+    "photo": "/photos/manoel-carlos-de-almeida-neto.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Manoel_Carlos_de_Almeida_Neto",
+    "ministryIds": [
+      "justica"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "wellington-cesar-lima-e-silva",
+    "name": "Wellington César Lima e Silva",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Justiça e Segurança Pública.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Wellington_César_Lima_e_Silva",
+    "photo": "/photos/wellington-cesar-lima-e-silva.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Wellington_César_Lima_e_Silva",
+    "ministryIds": [
+      "justica"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "marina-silva",
+    "name": "Marina Silva",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Meio Ambiente e Mudança do Clima.",
+    "party": "REDE",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Marina_Silva",
+    "photo": "/photos/marina-silva.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Marina_Silva",
+    "ministryIds": [
+      "meio-ambiente"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "joao-paulo-capobianco",
+    "name": "João Paulo Capobianco",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Meio Ambiente e Mudança do Clima.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/João_Paulo_Capobianco",
+    "photo": "/photos/joao-paulo-capobianco.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/João_Paulo_Capobianco",
+    "ministryIds": [
+      "meio-ambiente"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "alexandre-silveira",
+    "name": "Alexandre Silveira",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Minas e Energia.",
+    "party": "PSD",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Alexandre_Silveira",
+    "photo": "/photos/alexandre-silveira.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Alexandre_Silveira",
+    "ministryIds": [
+      "minas-energia"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "cida-goncalves",
+    "name": "Cida Gonçalves",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Mulheres.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Cida_Gonçalves",
+    "photo": "/photos/cida-goncalves.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Cida_Gonçalves",
+    "ministryIds": [
+      "mulheres"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "marcia-lopes",
+    "name": "Márcia Lopes",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Mulheres.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Márcia_Lopes",
+    "photo": "/photos/marcia-lopes.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Márcia_Lopes",
+    "ministryIds": [
+      "mulheres"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "simone-tebet",
+    "name": "Simone Tebet",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Planejamento e Orçamento.",
+    "party": "MDB",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Simone_Tebet",
+    "photo": "/photos/simone-tebet.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Simone_Tebet",
+    "ministryIds": [
+      "planejamento"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "silvio-costa-filho",
+    "name": "Sílvio Costa Filho",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Portos e Aeroportos.",
+    "party": "Republicanos",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Sílvio_Costa_Filho",
+    "photo": "/photos/silvio-costa-filho.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Sílvio_Costa_Filho",
+    "ministryIds": [
+      "portos"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "sonia-guajajara",
+    "name": "Sônia Guajajara",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Povos Indígenas.",
+    "party": "PSOL",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Sônia_Guajajara",
+    "photo": "/photos/sonia-guajajara.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Sônia_Guajajara",
+    "ministryIds": [
+      "povos-indigenas"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "eloy-terena",
+    "name": "Eloy Terena",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Povos Indígenas.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Eloy_Terena",
+    "photo": "/photos/eloy-terena.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Eloy_Terena",
+    "ministryIds": [
+      "povos-indigenas"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "carlos-lupi",
+    "name": "Carlos Lupi",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Previdência Social.",
+    "party": "PDT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Carlos_Lupi",
+    "photo": "/photos/carlos-lupi.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Carlos_Lupi",
+    "ministryIds": [
+      "previdencia"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "wolney-queiroz",
+    "name": "Wolney Queiroz",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Previdência Social.",
+    "party": "PDT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Wolney_Queiroz",
+    "photo": "/photos/wolney-queiroz.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Wolney_Queiroz",
+    "ministryIds": [
+      "previdencia"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "mauro-vieira",
+    "name": "Mauro Vieira",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Relações Exteriores.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Mauro_Vieira",
+    "photo": "/photos/mauro-vieira.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Mauro_Vieira",
+    "ministryIds": [
+      "relacoes-exteriores"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "nisia-trindade",
+    "name": "Nísia Trindade",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Saúde.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Nísia_Trindade_Lima",
+    "photo": "/photos/nisia-trindade.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Nísia_Trindade_Lima",
+    "ministryIds": [
+      "saude"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "alexandre-padilha",
+    "name": "Alexandre Padilha",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Saúde.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Alexandre_Padilha",
+    "photo": "/photos/alexandre-padilha.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Alexandre_Padilha",
+    "ministryIds": [
+      "saude"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "luiz-marinho",
+    "name": "Luiz Marinho",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Trabalho e Emprego.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Luiz_Marinho",
+    "photo": "/photos/luiz-marinho.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Luiz_Marinho",
+    "ministryIds": [
+      "trabalho"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "renan-filho",
+    "name": "Renan Filho",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Transportes.",
+    "party": "MDB",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Renan_Filho",
+    "photo": "/photos/renan-filho.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Renan_Filho",
+    "ministryIds": [
+      "transportes"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "daniela-carneiro",
+    "name": "Daniela Carneiro",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Turismo.",
+    "party": "UNIÃO",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Daniela_Carneiro",
+    "photo": "/photos/daniela-carneiro.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Daniela_Carneiro",
+    "ministryIds": [
+      "turismo"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "celso-sabino",
+    "name": "Celso Sabino",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Turismo.",
+    "party": "UNIÃO",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Celso_Sabino",
+    "photo": "/photos/celso-sabino.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Celso_Sabino",
+    "ministryIds": [
+      "turismo"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "gustavo-feliciano",
+    "name": "Gustavo Feliciano",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Turismo.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Gustavo_Feliciano",
+    "photo": "/photos/gustavo-feliciano.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Gustavo_Feliciano",
+    "ministryIds": [
+      "turismo"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "jorge-messias",
+    "name": "Jorge Messias",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Advocacia-Geral da União.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Jorge_Messias",
+    "photo": "/photos/jorge-messias.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Jorge_Messias",
+    "ministryIds": [
+      "agu"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "vinicius-marques-de-carvalho",
+    "name": "Vinícius Marques de Carvalho",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Controladoria-Geral da União.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Vinícius_Marques_de_Carvalho",
+    "photo": "/photos/vinicius-marques-de-carvalho.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Vinícius_Marques_de_Carvalho",
+    "ministryIds": [
+      "cgu"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "rui-costa",
+    "name": "Rui Costa",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Casa Civil.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Rui_Costa_(político)",
+    "photo": "/photos/rui-costa.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Rui_Costa_(político)",
+    "ministryIds": [
+      "casa-civil"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "miriam-belchior",
+    "name": "Miriam Belchior",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Casa Civil.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Miriam_Belchior",
+    "photo": "/photos/miriam-belchior.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Miriam_Belchior",
+    "ministryIds": [
+      "casa-civil"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "goncalves-dias",
+    "name": "Gonçalves Dias",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Gabinete de Segurança Institucional.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Gonçalves_Dias_(militar)",
+    "photo": "/photos/goncalves-dias.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Gonçalves_Dias_(militar)",
+    "ministryIds": [
+      "gsi"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "ricardo-cappelli",
+    "name": "Ricardo Cappelli",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Gabinete de Segurança Institucional.",
+    "party": "PSB",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Ricardo_Cappelli",
+    "photo": "/photos/ricardo-cappelli.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Ricardo_Cappelli",
+    "ministryIds": [
+      "gsi"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "marcos-antonio-amaro-dos-santos",
+    "name": "Marcos Antonio Amaro dos Santos",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Gabinete de Segurança Institucional.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Marcos_Antonio_Amaro_dos_Santos",
+    "photo": "/photos/marcos-antonio-amaro-dos-santos.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Marcos_Antonio_Amaro_dos_Santos",
+    "ministryIds": [
+      "gsi"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "marcio-macedo",
+    "name": "Márcio Macêdo",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Secretaria-Geral da Presidência da República.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Márcio_Macêdo",
+    "photo": "/photos/marcio-macedo.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Márcio_Macêdo",
+    "ministryIds": [
+      "secretaria-geral"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "guilherme-boulos",
+    "name": "Guilherme Boulos",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Secretaria-Geral da Presidência da República.",
+    "party": "PSOL",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Guilherme_Boulos",
+    "photo": "/photos/guilherme-boulos.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Guilherme_Boulos",
+    "ministryIds": [
+      "secretaria-geral"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "paulo-pimenta",
+    "name": "Paulo Pimenta",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Secretaria de Comunicação Social.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Paulo_Pimenta",
+    "photo": "/photos/paulo-pimenta.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Paulo_Pimenta",
+    "ministryIds": [
+      "comunicacao-social"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "sidonio-palmeira",
+    "name": "Sidônio Palmeira",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Secretaria de Comunicação Social.",
+    "party": "Sem partido",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Sidônio_Palmeira",
+    "photo": "/photos/sidonio-palmeira.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Sidônio_Palmeira",
+    "ministryIds": [
+      "comunicacao-social"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "gleisi-hoffmann",
+    "name": "Gleisi Hoffmann",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Secretaria de Relações Institucionais.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/Gleisi_Hoffmann",
+    "photo": "/photos/gleisi-hoffmann.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/Gleisi_Hoffmann",
+    "ministryIds": [
+      "relacoes-institucionais"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "jose-nobre-guimaraes",
+    "name": "José Nobre Guimarães",
+    "bio": "Integrou o gabinete Lula (2023–2026) na área de Secretaria de Relações Institucionais.",
+    "party": "PT",
+    "gender": "Não informado",
+    "race": "Não informado",
+    "demographicSource": "",
+    "reference": "https://pt.wikipedia.org/wiki/José_Nobre_Guimarães",
+    "photo": "/photos/jose-nobre-guimaraes.jpg",
+    "photoSource": "https://pt.wikipedia.org/wiki/José_Nobre_Guimarães",
+    "ministryIds": [
+      "relacoes-institucionais"
+    ],
+    "sourceType": "wikipedia",
+    "partyNote": "Filiação registrada na lista do gabinete; pode ser histórica.",
+    "verifiedAt": "2026-10-27"
+  }
+]

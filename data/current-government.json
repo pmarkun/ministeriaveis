@@ -1,0 +1,345 @@
+{
+  "asOf": "2026-10-27",
+  "label": "Governo atual",
+  "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+  "officialDirectory": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/ministros-e-ministras",
+  "note": "Composição de referência da lista do gabinete consultada em 27/10/2026. Em caso de dois registros em exercício para a mesma pasta, foi utilizado o de posse mais recente na tabela.",
+  "appointments": {
+    "agricultura": {
+      "personId": "andre-de-paula",
+      "since": "1.º de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "cidades": {
+      "personId": "vladimir-lima",
+      "since": "2 de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "ciencia": {
+      "personId": "luciana-santos",
+      "since": "1.º de janeiro de 2023",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "comunicacoes": {
+      "personId": "frederico-siqueira",
+      "since": "24 de abril de 2025",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "cultura": {
+      "personId": "margareth-menezes",
+      "since": "1.º de janeiro de 2023",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "defesa": {
+      "personId": "jose-mucio",
+      "since": "1.º de janeiro de 2023",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "desenvolvimento-agrario": {
+      "personId": "fernanda-machiaveli",
+      "since": "1.º de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "industria": {
+      "personId": "marcio-fernando-elias-rosa",
+      "since": "3 de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "desenvolvimento-social": {
+      "personId": "wellington-dias",
+      "since": "1.º de janeiro de 2023",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "direitos-humanos": {
+      "personId": "janine-mello",
+      "since": "1.º de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "educacao": {
+      "personId": "leonardo-barchini",
+      "since": "2 de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "empreendedorismo": {
+      "personId": "paulo-henrique-pereira",
+      "since": "22 de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "esporte": {
+      "personId": "paulo-henrique-perna-cordeiro",
+      "since": "1.º de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "fazenda": {
+      "personId": "dario-durigan",
+      "since": "19 de março de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "gestao": {
+      "personId": "esther-dweck",
+      "since": "1.º de janeiro de 2023",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "igualdade-racial": {
+      "personId": "rachel-barros-de-oliveira",
+      "since": "1.º de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "integracao": {
+      "personId": "waldez-goes",
+      "since": "1.º de janeiro de 2023",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "justica": {
+      "personId": "wellington-cesar-lima-e-silva",
+      "since": "13 de janeiro de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "meio-ambiente": {
+      "personId": "joao-paulo-capobianco",
+      "since": "1.º de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "minas-energia": {
+      "personId": "alexandre-silveira",
+      "since": "1.º de janeiro de 2023",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "mulheres": {
+      "personId": "marcia-lopes",
+      "since": "5 de maio de 2025",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "pesca": {
+      "personId": "rivetla-edipo-cruz",
+      "since": "1.º de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "planejamento": {
+      "personId": "bruno-moretti",
+      "since": "1.º de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "portos": {
+      "personId": "tome-barros-monteiro-da-franca",
+      "since": "1.º de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "povos-indigenas": {
+      "personId": "eloy-terena",
+      "since": "1.º de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "previdencia": {
+      "personId": "wolney-queiroz",
+      "since": "2 de maio de 2025",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "relacoes-exteriores": {
+      "personId": "mauro-vieira",
+      "since": "1.º de janeiro de 2023",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "saude": {
+      "personId": "alexandre-padilha",
+      "since": "10 de março de 2025",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "trabalho": {
+      "personId": "luiz-marinho",
+      "since": "1.º de janeiro de 2023",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "transportes": {
+      "personId": "george-santoro",
+      "since": "1.º de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "turismo": {
+      "personId": "gustavo-feliciano",
+      "since": "23 de dezembro de 2025",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "agu": {
+      "personId": "jorge-messias",
+      "since": "1.º de janeiro de 2023",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "cgu": {
+      "personId": "vinicius-marques-de-carvalho",
+      "since": "1.º de janeiro de 2023",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "casa-civil": {
+      "personId": "miriam-belchior",
+      "since": "3 de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "gsi": {
+      "personId": "marcos-antonio-amaro-dos-santos",
+      "since": "4 de maio de 2023",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "secretaria-geral": {
+      "personId": "guilherme-boulos",
+      "since": "29 de outubro de 2025",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "comunicacao-social": {
+      "personId": "sidonio-palmeira",
+      "since": "07 de janeiro de 2025",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    },
+    "relacoes-institucionais": {
+      "personId": "jose-nobre-guimaraes",
+      "since": "14 de abril de 2026",
+      "source": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)"
+    }
+  },
+  "people": [
+    {
+      "id": "vladimir-lima",
+      "name": "Vladimir Lima",
+      "bio": "Titular de Cidades na composição de referência consultada em 27/10/2026.",
+      "party": "Sem partido",
+      "gender": "Não informado",
+      "race": "Não informado",
+      "demographicSource": "",
+      "reference": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "photo": "",
+      "photoSource": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "ministryIds": [
+        "cidades"
+      ],
+      "sourceType": "wikipedia",
+      "verifiedAt": "2026-10-27",
+      "partyNote": "Filiação na fonte de referência; pode ser histórica."
+    },
+    {
+      "id": "janine-mello",
+      "name": "Janine Mello",
+      "bio": "Titular de Direitos Humanos e Cidadania na composição de referência consultada em 27/10/2026.",
+      "party": "Sem partido",
+      "gender": "Não informado",
+      "race": "Não informado",
+      "demographicSource": "",
+      "reference": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "photo": "",
+      "photoSource": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "ministryIds": [
+        "direitos-humanos"
+      ],
+      "sourceType": "wikipedia",
+      "verifiedAt": "2026-10-27",
+      "partyNote": "Filiação na fonte de referência; pode ser histórica."
+    },
+    {
+      "id": "paulo-henrique-pereira",
+      "name": "Paulo Henrique Pereira",
+      "bio": "Titular de Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte na composição de referência consultada em 27/10/2026.",
+      "party": "Não informado",
+      "gender": "Não informado",
+      "race": "Não informado",
+      "demographicSource": "",
+      "reference": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "photo": "",
+      "photoSource": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "ministryIds": [
+        "empreendedorismo"
+      ],
+      "sourceType": "wikipedia",
+      "verifiedAt": "2026-10-27",
+      "partyNote": "Filiação na fonte de referência; pode ser histórica."
+    },
+    {
+      "id": "paulo-henrique-perna-cordeiro",
+      "name": "Paulo Henrique Perna Cordeiro",
+      "bio": "Titular de Esporte na composição de referência consultada em 27/10/2026.",
+      "party": "Não informado",
+      "gender": "Não informado",
+      "race": "Não informado",
+      "demographicSource": "",
+      "reference": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "photo": "",
+      "photoSource": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "ministryIds": [
+        "esporte"
+      ],
+      "sourceType": "wikipedia",
+      "verifiedAt": "2026-10-27",
+      "partyNote": "Filiação na fonte de referência; pode ser histórica."
+    },
+    {
+      "id": "rivetla-edipo-cruz",
+      "name": "Rivetla Edipo Cruz",
+      "bio": "Titular de Pesca e Aquicultura na composição de referência consultada em 27/10/2026.",
+      "party": "Sem partido",
+      "gender": "Não informado",
+      "race": "Não informado",
+      "demographicSource": "",
+      "reference": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "photo": "",
+      "photoSource": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "ministryIds": [
+        "pesca"
+      ],
+      "sourceType": "wikipedia",
+      "verifiedAt": "2026-10-27",
+      "partyNote": "Filiação na fonte de referência; pode ser histórica."
+    },
+    {
+      "id": "bruno-moretti",
+      "name": "Bruno Moretti",
+      "bio": "Titular de Planejamento e Orçamento na composição de referência consultada em 27/10/2026.",
+      "party": "Sem partido",
+      "gender": "Não informado",
+      "race": "Não informado",
+      "demographicSource": "",
+      "reference": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "photo": "",
+      "photoSource": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "ministryIds": [
+        "planejamento"
+      ],
+      "sourceType": "wikipedia",
+      "verifiedAt": "2026-10-27",
+      "partyNote": "Filiação na fonte de referência; pode ser histórica."
+    },
+    {
+      "id": "tome-barros-monteiro-da-franca",
+      "name": "Tomé Barros Monteiro da Franca",
+      "bio": "Titular de Portos e Aeroportos na composição de referência consultada em 27/10/2026.",
+      "party": "Sem partido",
+      "gender": "Não informado",
+      "race": "Não informado",
+      "demographicSource": "",
+      "reference": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "photo": "",
+      "photoSource": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "ministryIds": [
+        "portos"
+      ],
+      "sourceType": "wikipedia",
+      "verifiedAt": "2026-10-27",
+      "partyNote": "Filiação na fonte de referência; pode ser histórica."
+    },
+    {
+      "id": "george-santoro",
+      "name": "George Santoro",
+      "bio": "Titular de Transportes na composição de referência consultada em 27/10/2026.",
+      "party": "Não informado",
+      "gender": "Não informado",
+      "race": "Não informado",
+      "demographicSource": "",
+      "reference": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/George_Andr%C3%A9_Palermo_Santoro.jpg/120px-George_Andr%C3%A9_Palermo_Santoro.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "photoSource": "https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023%E2%80%93presente)",
+      "ministryIds": [
+        "transportes"
+      ],
+      "sourceType": "wikipedia",
+      "verifiedAt": "2026-10-27",
+      "partyNote": "Filiação na fonte de referência; pode ser histórica."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+export type Attribute={id:string;text:string;source:string;originId?:string};
+export type Ministry={id:string;name:string;budget:number|null;budgetSource:string|null;legalSource:string;article:string;attributes:Attribute[];custom:boolean;originIds?:string[]};
+export type ElectionProfile={year:number;office:'Deputado Federal'|'Senador';uf:string;votes:number;validVotes:number;rank:number;elected:boolean;status:string;candidateId:string;electionId:string;number:string;source:string;candidateSource:string};
+export type Person={id:string;name:string;bio:string;party:string;gender:string;race:string;demographicSource:string;reference:string;photo:string;photoSource?:string;ministryIds:string[];sourceType:string;partyNote?:string;verifiedAt:string;groups?:string[];uf?:string;election?:ElectionProfile};
+export type Selection={schemaVersion:1;title:string;scope:'top'|'all';ministries:Ministry[];assignments:Record<string,string>;people:Person[];pending:Attribute[];unallocatedBudget:number;budgetIncomplete:boolean;budgetJustification?:string};
+export type Version={id:string;ownerLabel:string;title:string;payload:Selection;parentId:string|null;rootId:string;version:number;createdAt:string;supports:number;isOwner?:boolean;isSupported?:boolean;relation:string};
