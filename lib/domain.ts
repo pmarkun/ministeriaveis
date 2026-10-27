@@ -2,8 +2,11 @@ import ministryData from '../data/ministries.json';
 import peopleData from '../data/people.json';
 import governmentData from '../data/current-government.json';
 import electionData from '../data/elections-2026.json';
+import editorialData from '../data/editorial-2026.json';
 import type {Ministry,Person,Selection} from './types';
 export const ministries= ministryData as Ministry[];
+export const editorial=editorialData;
+export const editorialMinistries=editorial.ministryIds.map(id=>ministries.find(m=>m.id===id)!);
 export const cabinetSeedCount=peopleData.length;
 export const currentGovernment=governmentData;
 export const elections=electionData;
@@ -15,13 +18,13 @@ export function currentSelection():Selection{return {schemaVersion:1,title:'Minh
 export const budgetSource='https://www2.camara.leg.br/orcamento-da-uniao/raio-x-do-orcamento/2026/RaioXdoOramento2026PsVetos.pdf#page=4';
 export const legalSource='https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm';
 export const wikiSource='https://pt.wikipedia.org/wiki/Lista_de_membros_do_gabinete_de_Lula_(2023–presente)';
-export function initialSelection():Selection{return {schemaVersion:1,title:'Minha seleção para o Brasil',scope:'top',ministries:structuredClone(ministries.slice(0,10)),assignments:{},people:[],pending:[],unallocatedBudget:0,budgetIncomplete:false};}
+export function initialSelection():Selection{return {schemaVersion:1,title:'Minha seleção para o Brasil',scope:'editorial',additionalMinistryIds:[],ministries:structuredClone(editorialMinistries),assignments:{},people:[],pending:[],unallocatedBudget:0,budgetIncomplete:false};}
 export function money(n:number|null){return n===null?'Orçamento a conferir':n>=1000?'R$ '+(n/1000).toLocaleString('pt-BR',{maximumFractionDigits:2})+' tri':'R$ '+n.toLocaleString('pt-BR',{maximumFractionDigits:2})+' bi';}
 export function allPeople(s:Selection){return [...people,...s.people];}
 export function composition(s:Selection,key:'gender'|'race'|'party') {const ps=allPeople(s);const counts:Record<string,number>={};for(const id of Object.values(s.assignments)){const p=ps.find(p=>p.id===id);if(p){const label=p[key]||'Não informado';counts[label]=(counts[label]||0)+1;}}return Object.entries(counts).sort((a,b)=>b[1]-a[1]);}
 export function mergeMinistries(s:Selection,ids:string[],name:string):Selection {const src=s.ministries.filter(m=>ids.includes(m.id));if(src.length<2)throw Error('Escolha pelo menos duas pastas.');const id='custom-'+newId();const m:Ministry={id,name,budget:src.every(m=>m.budget===null)?null:src.reduce((n,m)=>n+(m.budget||0),0),budgetSource:null,legalSource:'',article:'Proposta',custom:true,originIds:src.flatMap(m=>m.originIds||[m.id]),attributes:src.flatMap(m=>m.attributes)};const assignments={...s.assignments};ids.forEach(id=>delete assignments[id]);return balanceBudget({...s,ministries:[...s.ministries.filter(m=>!ids.includes(m.id)),m],assignments,budgetIncomplete:s.budgetIncomplete||src.some(m=>m.budget===null)});}
 const roundBudget=(n:number)=>Math.round(n*1e9)/1e9;
-export function budgetSummary(s:Selection){const base=(s.scope==='all'?ministries:ministries.slice(0,10)).reduce((n,m)=>n+(m.budget||0),0);const allocated=s.ministries.reduce((n,m)=>n+(m.budget||0),0);const balance=roundBudget(base-allocated);return {base:roundBudget(base),allocated:roundBudget(allocated),free:Math.max(0,balance),extra:Math.max(0,-balance)};}
+export function budgetSummary(s:Selection){const base=referenceMinistries(s).reduce((n,m)=>n+(m.budget||0),0);const allocated=s.ministries.reduce((n,m)=>n+(m.budget||0),0);const balance=roundBudget(base-allocated);return {base:roundBudget(base),allocated:roundBudget(allocated),free:Math.max(0,balance),extra:Math.max(0,-balance)};}
 export function balanceBudget(s:Selection):Selection{return {...s,unallocatedBudget:budgetSummary(s).free};}
 export function fundingError(s:Selection):string|null{const b=budgetSummary(s);if(Math.abs(b.free-s.unallocatedBudget)>0.000001)return 'O orçamento livre não corresponde aos recursos alocados. Confira a distribuição.';if(b.extra>0.000001&&!(s.budgetJustification||'').trim())return 'Descreva de onde será cortado o valor que excede o orçamento de referência.';return null;}
 export function createMinistry(s:Selection,input:{name:string;budget:number;attributes:string[];pendingIds:string[];source:string;justification?:string}):Selection{const name=input.name.trim();const selected=s.pending.filter(a=>input.pendingIds.includes(a.id));const texts=input.attributes.map(x=>x.trim()).filter(Boolean);if(name.length<3||!Number.isFinite(input.budget)||input.budget<0||(!texts.length&&!selected.length))throw Error('Preencha nome, orçamento e pelo menos uma atribuição.');const id='custom-'+newId();const next=balanceBudget({...s,ministries:[...s.ministries,{id,name,budget:input.budget,budgetSource:null,legalSource:input.source,article:'Proposta',custom:true,attributes:[...selected,...texts.map((text,i)=>({id:id+'-a'+i,text,source:input.source}))]}],pending:s.pending.filter(a=>!input.pendingIds.includes(a.id)),budgetJustification:input.justification?.trim()||s.budgetJustification});const err=fundingError(next);if(err)throw Error(err);return next;}
@@ -32,3 +35,10 @@ export function canonicalJSON(value:unknown):string{if(Array.isArray(value))retu
 
 // getRandomValues also works in the HTTP-only local preview.
 export function newId():string{if(typeof crypto.randomUUID==='function')return crypto.randomUUID();const b=crypto.getRandomValues(new Uint8Array(16));b[6]=(b[6]&15)|64;b[8]=(b[8]&63)|128;const h=Array.from(b,n=>n.toString(16).padStart(2,'0')).join('');return h.slice(0,8)+'-'+h.slice(8,12)+'-'+h.slice(12,16)+'-'+h.slice(16,20)+'-'+h.slice(20);}
+
+export function referenceMinistries(s:Selection):Ministry[]{const core=s.scope==='all'?ministries:s.scope==='editorial'?editorialMinistries:ministries.slice(0,10);const ids=new Set([...core.map(m=>m.id),...(s.additionalMinistryIds||[])]);return ministries.filter(m=>ids.has(m.id));}
+export function availableMinistries(s:Selection):Ministry[]{const included=new Set(referenceMinistries(s).map(m=>m.id));return ministries.filter(m=>!included.has(m.id)).sort((a,b)=>a.name.localeCompare(b.name,'pt-BR'));}
+export function addExistingMinistry(s:Selection,id:string):Selection{const m=availableMinistries(s).find(m=>m.id===id);if(!m)throw Error('Esta pasta já está na sua estrutura.');return balanceBudget({...s,additionalMinistryIds:[...(s.additionalMinistryIds||[]),id],ministries:[...s.ministries,structuredClone(m)]});}
+export function currentEditorialSelection():Selection{const s=initialSelection();return {...s,title:'Minha versão do governo atual — 27/10/2026',assignments:Object.fromEntries(s.ministries.map(m=>[m.id,currentGovernment.appointments[m.id as keyof typeof currentGovernment.appointments].personId]))};}
+
+export function restoreDraft(s:Selection):Selection{if(s.scope==='top'&&!Object.keys(s.assignments).length&&!s.people.length&&!s.pending.length&&!s.unallocatedBudget&&s.ministries.length===10&&s.ministries.every((m,i)=>canonicalJSON(m)===canonicalJSON(ministries[i])))return {...initialSelection(),title:s.title};return balanceBudget(s);}

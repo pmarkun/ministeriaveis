@@ -40,3 +40,11 @@ test('API: autenticação, versões, integridade, votos únicos, bifurcações e
  user(null);assert.equal((await req('POST','support/'+a.id)).status,401);
  const summary=await req('GET','versions/'+a.id);assert.equal(summary.body.isOwner,false);assert.equal('owner_id' in summary.body,false);assert.equal('email' in summary.body,false);
 });
+
+test('API salva recorte editorial e pastas adicionadas, sem exigir opinião sobre as demais',async()=>{
+ user('editorial-author');const all=JSON.parse(await fs.readFile('data/ministries.json','utf8'));const editorial=JSON.parse(await fs.readFile('data/editorial-2026.json','utf8'));const ids=new Set(editorial.ministryIds);const payload={...structuredClone(seed),title:'Minha seleção editorial',scope:'editorial',additionalMinistryIds:[],ministries:all.filter(m=>ids.has(m.id)),assignments:{'fazenda':basePeople[0].id}};
+ const first=await req('POST','versions',{payload,parentId:null,ownerLabel:'Autor editorial'});assert.equal(first.status,201);assert.equal(first.body.payload.ministries.length,10);assert.equal(first.body.payload.pending.length,0);
+ const added=structuredClone(payload);added.additionalMinistryIds=['previdencia'];added.ministries.push(all.find(m=>m.id==='previdencia'));added.title='Com mais uma pasta';const second=await req('POST','versions',{payload:added,parentId:first.body.id,ownerLabel:'Autor editorial'});assert.equal(second.status,201);assert.deepEqual(second.body.payload.additionalMinistryIds,['previdencia']);assert.equal(second.body.payload.unallocatedBudget,0);assert.equal((await req('GET','versions/'+first.body.id)).body.payload.ministries.length,10);
+ const missing=structuredClone(added);missing.ministries=missing.ministries.filter(m=>m.id!=='previdencia');assert.equal((await req('POST','versions',{payload:missing,parentId:second.body.id,ownerLabel:'Autor editorial'})).status,400);
+ const untracked=structuredClone(added);untracked.additionalMinistryIds=[];assert.equal((await req('POST','versions',{payload:untracked,parentId:null,ownerLabel:'Autor editorial'})).status,400);
+});

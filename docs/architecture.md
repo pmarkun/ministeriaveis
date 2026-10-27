@@ -63,3 +63,10 @@ O segundo comando requer Pillow e usa o catálogo CKAN `package_show?id=candidat
 ### Saldo e justificativa de cortes
 
 `budgetSummary` calcula referência, orçamento alocado, saldo livre e excesso a partir do recorte `scope`. `createMinistry`, `removeMinistry` e `allocateBudget` atualizam o saldo; o servidor compara o saldo recebido com o calculado, rejeitando discrepâncias. `Selection.budgetJustification` é opcional para compatibilidade com versões anteriores, mas obrigatório em novas gravações com excesso. O texto é público na versão e permanece no payload imutável. Recursos livres podem ser guardados como economia. Atribuições pendentes continuam bloqueando publicação da escalação, com conservação de IDs, textos e fontes originais. Não se pretende validar juridicamente nem executar os cortes sugeridos.
+
+
+### Recorte editorial e ausência de opinião
+
+Novas seleções usam `scope: editorial`. As dez pastas iniciais estão em `data/editorial-2026.json`; `additionalMinistryIds` registra quais outras pastas oficiais entraram na proposta, inclusive quando depois removidas ou fundidas. `referenceMinistries` deriva a referência de competências e orçamento dessa combinação. Os recortes históricos `top` e `all` continuam com a definição anterior, acrescidos das pastas extras quando existirem. Não se reescrevem versões já salvas.
+
+Uma pasta ainda não incluída significa ausência de opinião. Seu orçamento e atribuições permanecem fora da simulação e não podem ser reaproveitados. `addExistingMinistry` inclui simultaneamente os valores e as competências oficiais, sem criar saldo artificial ou duplicatas. A integridade exige todas as competências das pastas de referência e rejeita atribuições oficiais importadas sem a inclusão correspondente. Criar uma pasta proposta continua separado de adicionar uma pasta oficial da lista.

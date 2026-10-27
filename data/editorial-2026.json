@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "label": "Seleção editorial",
+  "description": "Dez pastas para começar: coordenação do governo, economia, serviços públicos, proteção social, segurança, defesa, relações internacionais e ambiente. A escolha editorial não é um ranking de orçamento.",
+  "ministryIds": [
+    "casa-civil",
+    "fazenda",
+    "planejamento",
+    "saude",
+    "educacao",
+    "desenvolvimento-social",
+    "justica",
+    "defesa",
+    "relacoes-exteriores",
+    "meio-ambiente"
+  ]
+}
