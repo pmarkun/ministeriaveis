@@ -1,12 +1,16 @@
 'use client';
 import {useState} from 'react';
-import {Plus,Search,Check} from 'lucide-react';
+import {Plus} from 'lucide-react';
 import type {Selection} from '../../lib/types';
-import {availableMinistries,money} from '../../lib/domain';
-import {Modal} from './primitives';
-export default function AddMinistry({selection,onAdd,onClose,onCreate}:{selection:Selection;onAdd:(id:string)=>void;onClose:()=>void;onCreate:()=>void}){
- const [query,setQuery]=useState(''),[added,setAdded]=useState<string[]>([]);
- const normalize=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
- const available=availableMinistries(selection),list=available.filter(m=>normalize(m.name).includes(normalize(query)));
- return <Modal title="Adicionar ministério da lista" onClose={onClose} wide><p>Escolha apenas as pastas sobre as quais você quer opinar. As demais continuam a critério do Presidente.</p><label className="search"><Search size={19}/><input autoFocus aria-label="Buscar ministério" placeholder="Buscar por nome do ministério" value={query} onChange={e=>setQuery(e.target.value)}/></label>{added.length?<p className="added-feedback" role="status"><Check size={16}/> {added.length} {added.length===1?'ministério adicionado':'ministérios adicionados'} à sua escalação.</p>:null}<div className="ministry-catalog">{list.map(m=><article className="catalog-row" key={m.id}><div><h3>{m.name}</h3><p>{money(m.budget)} · {m.attributes.length} atribuições</p></div><button className="button secondary" aria-label={'Adicionar '+m.name} onClick={()=>{onAdd(m.id);setAdded([...added,m.id])}}><Plus size={17}/> Adicionar</button></article>)}</div>{!list.length?<p className="notice">{available.length?'Nenhum ministério corresponde à busca.':'Todas as pastas da lista já fazem parte da sua estrutura.'}</p>:null}<div className="catalog-footer"><button className="text-button" onClick={onCreate}>Quer propor uma pasta nova?</button><button className="button primary" onClick={onClose}>Voltar ao campo</button></div></Modal>
+import {availableMinistries} from '../../lib/domain';
+export default function AddMinistry({selection,onAdd,readOnly=false}:{selection:Selection;onAdd:(id:string)=>void;readOnly?:boolean}){
+ const [selected,setSelected]=useState('');
+ const available=availableMinistries(selection);
+ const selectedId=available.some(m=>m.id===selected)?selected:'';
+ if(!available.length)return null;
+ function add(e:React.FormEvent){e.preventDefault();if(!selectedId)return;onAdd(selectedId);setSelected('')}
+ return <section className="ministry-choices" aria-label="Outros ministérios">
+ {!readOnly?<form className="inline-ministry-form" onSubmit={add}><label htmlFor="other-ministry">Adicionar outro ministério ao campo</label><div className="inline-ministry-controls"><select id="other-ministry" value={selectedId} onChange={e=>setSelected(e.target.value)}><option value="">Escolha um ministério da lista…</option>{available.map(m=><option key={m.id} value={m.id}>{m.name}</option>)}</select><button className="button primary" disabled={!selectedId}><Plus size={17}/> Adicionar ao campo</button></div></form>:null}
+ <div className="presidential-list"><h3>A critério do Presidente <span>({available.length})</span></h3><p>Ainda não tenho opinião formada sobre estes ministérios. As escolhas ficam a critério do Presidente.</p><ul aria-label="Ministérios a critério do Presidente">{available.map(m=><li key={m.id}>{m.name}</li>)}</ul></div>
+ </section>
 }
