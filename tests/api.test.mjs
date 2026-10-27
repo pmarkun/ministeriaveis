@@ -48,3 +48,10 @@ test('API salva recorte editorial e pastas adicionadas, sem exigir opinião sobr
  const missing=structuredClone(added);missing.ministries=missing.ministries.filter(m=>m.id!=='previdencia');assert.equal((await req('POST','versions',{payload:missing,parentId:second.body.id,ownerLabel:'Autor editorial'})).status,400);
  const untracked=structuredClone(added);untracked.additionalMinistryIds=[];assert.equal((await req('POST','versions',{payload:untracked,parentId:null,ownerLabel:'Autor editorial'})).status,400);
 });
+
+test('API preserva pasta a critério do Presidente em versão parcial e rejeita referências contraditórias',async()=>{
+ user('deferred-author');const all=JSON.parse(await fs.readFile('data/ministries.json','utf8'));const editorial=JSON.parse(await fs.readFile('data/editorial-2026.json','utf8'));const payload={...structuredClone(seed),scope:'editorial',additionalMinistryIds:[],deferredMinistryIds:['saude'],ministries:all.filter(m=>editorial.ministryIds.includes(m.id)&&m.id!=='saude'),assignments:{fazenda:basePeople[0].id}};
+ const saved=await req('POST','versions',{payload,parentId:null,ownerLabel:'Autor parcial'});assert.equal(saved.status,201);assert.deepEqual(saved.body.payload.deferredMinistryIds,['saude']);assert.equal(saved.body.payload.pending.length,0);assert.equal(saved.body.payload.unallocatedBudget,0);assert.equal((await req('GET','versions/'+saved.body.id)).body.payload.ministries.length,9);
+ const contradictory=structuredClone(payload);contradictory.ministries.push(all.find(m=>m.id==='saude'));assert.equal((await req('POST','versions',{payload:contradictory,parentId:null,ownerLabel:'Autor parcial'})).status,400);
+ const escaped=structuredClone(payload);escaped.ministries[0].attributes.push(all.find(m=>m.id==='saude').attributes[0]);assert.equal((await req('POST','versions',{payload:escaped,parentId:null,ownerLabel:'Autor parcial'})).status,400);
+});

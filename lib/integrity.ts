@@ -3,6 +3,8 @@ import type {Selection} from './types';
 export function integrityError(s:Selection):string|null{
  const required=referenceMinistries(s);
  const extras=s.additionalMinistryIds||[];if(new Set(extras).size!==extras.length||extras.some(id=>!ministries.some(m=>m.id===id)))return 'Há pastas de referência inválidas ou duplicadas.';
+ const deferred=s.deferredMinistryIds||[];const fullReference=referenceMinistries({...s,deferredMinistryIds:[]});if(new Set(deferred).size!==deferred.length||deferred.some(id=>!fullReference.some(m=>m.id===id)))return 'Há pastas a critério do Presidente inválidas ou duplicadas.';
+ if(s.ministries.some(m=>deferred.includes(m.id)))return 'Uma pasta a critério do Presidente não pode continuar na sua proposta.';
  const expected=new Set(required.flatMap(m=>m.attributes).map(a=>a.id));
  for(const a of [...s.ministries.flatMap(m=>m.attributes),...s.pending])if(ministries.some(m=>m.attributes.some(b=>b.id===a.id))&&!expected.has(a.id))return 'Inclua esta pasta de referência antes de realocar suas atribuições.';
  const counts=new Map<string,number>();const knownAttrs=new Map(ministries.flatMap(m=>m.attributes).map(a=>[a.id,a]));
