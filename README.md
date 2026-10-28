@@ -30,7 +30,7 @@ O saldo considera o total conhecido das pastas de referência incluídas na sele
 
 ## GitHub e migração
 
-Repositório: https://github.com/pmarkun/ministeriaveis. Os arquivos de execução não contêm chaves ou dados de usuários. `data/` e `public/photos/` contêm apenas a base pública de referência; uploads e versões dos participantes permanecem no armazenamento do aplicativo. Para hospedar fora do Sites, substitua a autenticação em `app/chatgpt-auth.ts` por validação do provedor escolhido; nunca aceite os cabeçalhos de identidade diretamente da internet. Adapte os bindings D1/R2 e o manifesto de hospedagem conforme descrito em `docs/architecture.md`.
+Repositório: https://github.com/pmarkun/ministeriaveis. Os arquivos de execução não contêm chaves ou dados de usuários. `data/` e `public/photos/` contêm apenas a base pública de referência; uploads e versões dos participantes permanecem no armazenamento do aplicativo. A autenticação própria está em `lib/auth.ts`, com contas e sessões em D1. Para hospedar fora do Sites, preserve IDs das contas, hashes de senha e sessões ou revogue as sessões durante a migração; nunca use cabeçalhos arbitrários como identidade. Adapte os bindings D1/R2 e o manifesto de hospedagem conforme descrito em `docs/architecture.md`.
 
 ## Seleção editorial
 
@@ -43,3 +43,15 @@ Ao abrir a página sem link de versão, o campo começa sempre com Lula e as dez
 ## Fluxo de participação
 
 Visitantes podem montar e consultar escalações; salvar versões e fortalecer exigem autenticação. O compartilhamento pode ser parcial, com pelo menos uma indicação. Ao adicionar uma pasta, abre-se a busca para indicar uma pessoa; perfis e fontes são expansíveis. “Criar minha versão” preserva a origem. A redistribuição de competências permite selecionar várias atribuições, mostra a pasta de origem e oferece desfazer a última transferência enquanto o painel permanece aberto. No celular, salvar e compartilhar tem uma barra fixa.
+
+## Acesso próprio
+
+A conta do aplicativo usa e-mail e senha, sem login do ChatGPT. O e-mail é um identificador privado, sem confirmação de propriedade nem envio de mensagens. Senhas são protegidas com scrypt (N=16384, r=8, p=5), salt aleatório de 16 bytes e saída de 32 bytes. A sessão tem token aleatório de 32 bytes em cookie HttpOnly/SameSite=Lax/Secure em HTTPS, validade fixa de 30 dias e somente o hash do token é armazenado. Login renova a sessão; sair a revoga. Origem é validada nas escritas. Tentativas de acesso e recuperação têm limites por conta e por IP.
+
+Cadastro, recuperação e troca de senha entregam um código de recuperação de uso único, exibido somente nessa resposta; o banco guarda seu hash. A recuperação não depende de e-mail transacional. Trocar a senha ou usar o código revoga as sessões anteriores e gira o código; a versão da credencial impede reutilização de sessões criadas concorrentemente com senha antiga. Na conta, é possível alterar a senha e renovar esse código. Sem a senha e sem o código guardado, a interface não permite recuperar o acesso.
+
+Versões antigas vinculadas à identidade da hospedagem continuam acessíveis e podem originar novas versões. Não se transfere a autoria para uma conta nova somente por coincidência de e-mail ou apelido. Uma eventual vinculação precisa comprovar as duas identidades. Rascunhos locais continuam disponíveis.
+
+O cadastro de pessoas tem uma chamada destacada e, em buscas sem resultado, uma ação que aproveita o nome buscado. Cadastrar e indicar com uma URL de foto funciona no rascunho sem conta; enviar arquivo de foto e publicar a escalação exigem acesso.
+
+Verificação: `node --test tests/auth.test.mjs tests/api.test.mjs tests/auth-worker.test.mjs`, além dos testes de domínio/catálogo e TypeScript. Os testes de autenticação exercitam as rotas reais com SQLite isolado e criptografia real, sem simular o verificador de sessões. O teste Worker usa Miniflare/workerd e D1 isolados para verificar cadastro, login, recuperação e saída no runtime real.

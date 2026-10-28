@@ -19,14 +19,14 @@ Apoios têm chave composta (versão, participante). O ranking de pessoas conside
 ## Portabilidade
 
 1. Clonar o repositório em outro ambiente. `pnpm install` e `pnpm dev` para desenvolvimento com o starter; `pnpm build` para gerar Worker.
-2. Migrar `versions`, `supports`, `uploads` de SQLite/D1 para SQLite ou PostgreSQL. Preservar IDs, `root_id`, `parent_id` e timestamps ISO.
+2. Migrar `auth_accounts`, `auth_sessions`, `auth_limits`, `versions`, `supports`, `uploads` de SQLite/D1 para SQLite ou PostgreSQL. Preservar IDs, `root_id`, `parent_id` e timestamps ISO.
 3. Copiar R2 `photos/` para armazenamento S3 ou disco persistente. Manter a rota GET `/api/photos/:id` ou reescrever URLs nos snapshots com migração explícita; versões históricas precisam continuar acessíveis.
-4. Substituir `getChatGPTUser()` por um adaptador da autenticação escolhida. Manter um mapa entre os IDs antigos de usuário e os novos IDs. Nunca trocar por e-mail como chave primária nem confiar em cabeçalhos arbitrários no novo servidor.
+4. Portar `lib/auth.ts` e preservar os IDs de `auth_accounts`, ou criar um adaptador do provedor escolhido com uma vinculação comprovada de identidades. Nunca trocar por e-mail como chave primária nem confiar em cabeçalhos arbitrários no novo servidor.
 5. Adaptar o acesso ao banco em um único módulo; a API usa a forma SQLite de SQL preparado. Preservar semântica e transações ao portar para PostgreSQL.
 6. Conservar schemaVersion e exportações JSON. A interface importa uma escalação e exporta a seleção ou o histórico do próprio usuário. Exportações de dados não embutem bytes das fotos: copie o armazenamento separadamente para uma migração completa.
 7. Para GitHub: adicionar um remoto e enviar o código. Não versionar banco, fotos privadas exportadas em massa, credenciais ou estado local de execução.
 
-A autenticação e hospedagem do Sites são as únicas integrações específicas de plataforma. O repositório não contém segredos. A identidade fornecida por Sites é distinta entre sites; planeje o mapa de contas na migração.
+A hospedagem usa D1/R2; a autenticação é própria do aplicativo e funciona sem identidade do Sites. O repositório não contém credenciais ou dados de contas. Autores de versões antigas com IDs da hospedagem permanecem preservados, sem vinculação automática às contas novas.
 
 ## API
 
@@ -72,3 +72,9 @@ Novas seleções usam `scope: editorial`. As dez pastas iniciais estão em `data
 Uma pasta ainda não incluída significa ausência de opinião. Seu orçamento e atribuições permanecem fora da simulação e não podem ser reaproveitados. `addExistingMinistry` inclui simultaneamente os valores e as competências oficiais, sem criar saldo artificial ou duplicatas. A integridade exige todas as competências das pastas de referência e rejeita atribuições oficiais importadas sem a inclusão correspondente. Criar uma pasta proposta continua separado de adicionar uma pasta oficial da lista.
 
 `deferredMinistryIds` registra ausência de opinião em pastas que integravam o recorte. Essas pastas saem tanto da alocação quanto da referência: não geram saldo livre nem competências pendentes. A UI permite essa ação apenas se o objeto da pasta for idêntico ao catálogo original. A integridade rejeita IDs desconhecidos/duplicados, pastas simultaneamente ativas e diferidas, e competências legais fora da referência. A extinção mantém a referência e a conservação das competências. Reintroduzir uma pasta diferida limpa o marcador sem duplicar referências adicionais. O campo pode ficar sem pastas, mas salvar continua exigindo ao menos uma pessoa indicada.
+
+## Autenticação própria
+
+`lib/auth.ts` implementa POST `/api/auth/register`, `/login`, `/logout`, `/recover` e `/password`. Contas têm ID independente do e-mail, senha scrypt com parâmetros registrados no hash, hash do código de recuperação e versão da credencial. Sessões aleatórias de 256 bits são guardadas por hash SHA-256 e validadas no servidor, incluindo expiração e versão da credencial. Cookies são HttpOnly, SameSite=Lax e Secure em HTTPS; não ficam no localStorage. Recuperar/trocar senha incrementa a versão, invalida sessões e gira o código de recuperação de 160 bits. Login desconhecido executa a mesma derivação de senha de um login existente. Contadores persistentes limitam tentativas antes da derivação cara, com expiração e limpeza em lotes limitados.
+
+As migrações 0002 e 0003 adicionam apenas o esquema de acesso; nenhum registro antigo é alterado. O e-mail serve como identificador sem ser anunciado como verificado. Não há envio automático de e-mail. A recuperação depende de senha atual ou código entregue anteriormente. Os cabeçalhos de identidade da hospedagem não são usados para autorizar ações da aplicação.

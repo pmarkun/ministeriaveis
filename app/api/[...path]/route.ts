@@ -1,5 +1,5 @@
 import {env} from 'cloudflare:workers';
-import {getChatGPTUser} from '../../chatgpt-auth';
+import {getUser,handleAuth} from '../../../lib/auth';
 import {canonicalJSON,people,fundingError} from '../../../lib/domain';
 import {integrityError} from '../../../lib/integrity';
 import {saveSchema} from '../../../lib/validation';
@@ -9,10 +9,10 @@ const json=(data:unknown,status=200)=>Response.json(data,{status,headers:{'Cache
 async function parse(req:Request){if(Number(req.headers.get('content-length')||0)>750_000)throw new Error('Dados muito grandes.');const text=await req.text();if(text.length>750_000)throw new Error('Dados muito grandes.');return JSON.parse(text);}
 function decode(r:any,userId?:string):Version{return {id:r.id,title:r.title,ownerLabel:r.owner_label,payload:JSON.parse(r.payload),parentId:r.parent_id,rootId:r.root_id,version:r.version,createdAt:r.created_at,supports:Number(r.supports||0),isOwner:r.owner_id===userId,isSupported:!!r.is_supported,relation:r.relation};}
 async function version(id:string,userId?:string){const r=await env.DB!.prepare('SELECT v.*, (SELECT COUNT(*) FROM supports s WHERE s.version_id=v.id) supports,(SELECT COUNT(*) FROM supports s WHERE s.version_id=v.id AND s.user_id=?) is_supported FROM versions v WHERE v.id=?').bind(userId||'',id).first();return r?decode(r,userId):null;}
-function originOK(req:Request){const origin=req.headers.get('origin');return !origin||origin===new URL(req.url).origin;}
+function originOK(req:Request){const origin=req.headers.get('origin');return origin===new URL(req.url).origin&&req.headers.get('sec-fetch-site')!=='cross-site';}
 async function handle(req:Request){
- const path=new URL(req.url).pathname.replace(/^\/api\//,'').split('/');const user=await getChatGPTUser();
- if(req.method==='GET'&&path[0]==='me')return json({user:user?{id:user.userId,name:user.fullName||'Torcedor(a)'}:null});
+ const path=new URL(req.url).pathname.replace(/^\/api\//,'').split('/');if(path[0]==='auth')return handleAuth(req,path[1]||'');const user=await getUser(req);
+ if(req.method==='GET'&&path[0]==='me')return json({user:user?{id:user.userId,name:user.fullName,email:user.email}:null});
  if(path[0]==='photos'&&req.method==='GET'&&/^[a-f0-9-]{36}$/.test(path[1]||'')){const o=await env.BUCKET!.get('photos/'+path[1]);if(!o)return json({error:'Foto não encontrada.'},404);return new Response(o.body,{headers:{'Content-Type':o.httpMetadata?.contentType||'image/jpeg','Cache-Control':'public,max-age=31536000,immutable','X-Content-Type-Options':'nosniff','Content-Security-Policy':"default-src 'none'"}});}
  if(!env.DB)return json({error:'O banco de dados não está disponível.'},503);
  if(req.method==='GET'&&path[0]==='versions'&&path[1]){if(!/^[a-f0-9]{24}$/.test(path[1]))return json({error:'Endereço inválido.'},400);const v=await version(path[1],user?.userId);return v?json(v):json({error:'Escalação não encontrada.'},404);}
