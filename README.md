@@ -55,3 +55,7 @@ Versões antigas vinculadas à identidade da hospedagem continuam acessíveis e 
 O cadastro de pessoas tem uma chamada destacada e, em buscas sem resultado, uma ação que aproveita o nome buscado. Cadastrar e indicar com uma URL de foto funciona no rascunho sem conta; enviar arquivo de foto e publicar a escalação exigem acesso.
 
 Verificação: `node --test tests/auth.test.mjs tests/api.test.mjs tests/auth-worker.test.mjs`, além dos testes de domínio/catálogo e TypeScript. Os testes de autenticação exercitam as rotas reais com SQLite isolado e criptografia real, sem simular o verificador de sessões. O teste Worker usa Miniflare/workerd e D1 isolados para verificar cadastro, login, recuperação e saída no runtime real.
+
+## Nomes públicos
+
+E-mails são usados somente como identificador de acesso no servidor. Respostas de conta e `/api/me` enviam apenas ID e nome público. Nome ausente ou contendo `@` vira “Participante” na interface e nos autores de versões/histórico. Novos cadastros, alterações de perfil e rótulos de autoria não aceitam e-mail como nome. “Minha conta” permite editar o nome em `/api/auth/profile`; essa alteração também corrige rótulos antigos vazios ou com e-mail, preservando apelidos explícitos e o conteúdo/hash das versões.

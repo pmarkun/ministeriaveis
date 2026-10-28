@@ -1,22 +1,23 @@
 import {env} from 'cloudflare:workers';
 import {getUser,handleAuth} from '../../../lib/auth';
 import {canonicalJSON,people,fundingError} from '../../../lib/domain';
+import {displayName} from '../../../lib/display-name';
 import {integrityError} from '../../../lib/integrity';
 import {saveSchema} from '../../../lib/validation';
 import type {Selection,Version} from '../../../lib/types';
 export const dynamic='force-dynamic';
 const json=(data:unknown,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 async function parse(req:Request){if(Number(req.headers.get('content-length')||0)>750_000)throw new Error('Dados muito grandes.');const text=await req.text();if(text.length>750_000)throw new Error('Dados muito grandes.');return JSON.parse(text);}
-function decode(r:any,userId?:string):Version{return {id:r.id,title:r.title,ownerLabel:r.owner_label,payload:JSON.parse(r.payload),parentId:r.parent_id,rootId:r.root_id,version:r.version,createdAt:r.created_at,supports:Number(r.supports||0),isOwner:r.owner_id===userId,isSupported:!!r.is_supported,relation:r.relation};}
+function decode(r:any,userId?:string):Version{return {id:r.id,title:r.title,ownerLabel:displayName(r.owner_label),payload:JSON.parse(r.payload),parentId:r.parent_id,rootId:r.root_id,version:r.version,createdAt:r.created_at,supports:Number(r.supports||0),isOwner:r.owner_id===userId,isSupported:!!r.is_supported,relation:r.relation};}
 async function version(id:string,userId?:string){const r=await env.DB!.prepare('SELECT v.*, (SELECT COUNT(*) FROM supports s WHERE s.version_id=v.id) supports,(SELECT COUNT(*) FROM supports s WHERE s.version_id=v.id AND s.user_id=?) is_supported FROM versions v WHERE v.id=?').bind(userId||'',id).first();return r?decode(r,userId):null;}
 function originOK(req:Request){const origin=req.headers.get('origin');return origin===new URL(req.url).origin&&req.headers.get('sec-fetch-site')!=='cross-site';}
 async function handle(req:Request){
  const path=new URL(req.url).pathname.replace(/^\/api\//,'').split('/');if(path[0]==='auth')return handleAuth(req,path[1]||'');const user=await getUser(req);
- if(req.method==='GET'&&path[0]==='me')return json({user:user?{id:user.userId,name:user.fullName,email:user.email}:null});
+ if(req.method==='GET'&&path[0]==='me')return json({user:user?{id:user.userId,name:displayName(user.fullName)}:null});
  if(path[0]==='photos'&&req.method==='GET'&&/^[a-f0-9-]{36}$/.test(path[1]||'')){const o=await env.BUCKET!.get('photos/'+path[1]);if(!o)return json({error:'Foto não encontrada.'},404);return new Response(o.body,{headers:{'Content-Type':o.httpMetadata?.contentType||'image/jpeg','Cache-Control':'public,max-age=31536000,immutable','X-Content-Type-Options':'nosniff','Content-Security-Policy':"default-src 'none'"}});}
  if(!env.DB)return json({error:'O banco de dados não está disponível.'},503);
  if(req.method==='GET'&&path[0]==='versions'&&path[1]){if(!/^[a-f0-9]{24}$/.test(path[1]))return json({error:'Endereço inválido.'},400);const v=await version(path[1],user?.userId);return v?json(v):json({error:'Escalação não encontrada.'},404);}
- if(req.method==='GET'&&path[0]==='history'&&path[1]){const v=await version(path[1],user?.userId);if(!v)return json({error:'Escalação não encontrada.'},404);const out=await env.DB.prepare('SELECT id,title,owner_label,parent_id,root_id,version,relation,created_at FROM versions WHERE root_id=? OR id=? ORDER BY created_at DESC LIMIT 100').bind(v.rootId,v.parentId||'').all();return json(out.results);}
+ if(req.method==='GET'&&path[0]==='history'&&path[1]){const v=await version(path[1],user?.userId);if(!v)return json({error:'Escalação não encontrada.'},404);const out=await env.DB.prepare('SELECT id,title,owner_label,parent_id,root_id,version,relation,created_at FROM versions WHERE root_id=? OR id=? ORDER BY created_at DESC LIMIT 100').bind(v.rootId,v.parentId||'').all();return json(out.results.map((row:any)=>({...row,owner_label:displayName(row.owner_label)})));}
  if(req.method==='GET'&&path[0]==='community'){
  const rows=await env.DB.prepare('SELECT v.*, (SELECT COUNT(*) FROM supports s WHERE s.version_id=v.id) supports FROM versions v WHERE NOT EXISTS (SELECT 1 FROM versions child WHERE child.parent_id=v.id AND child.root_id=v.root_id) ORDER BY supports DESC,v.created_at DESC LIMIT 24').all();
  const tally=await env.DB.prepare(`WITH latest AS (SELECT payload,ROW_NUMBER() OVER(PARTITION BY owner_id ORDER BY created_at DESC,id DESC) rn FROM versions), choices AS (SELECT a.key mid,a.value pid,l.payload FROM latest l,json_each(l.payload,'$.assignments') a WHERE rn=1 AND NOT EXISTS (SELECT 1 FROM json_each(l.payload,'$.ministries') m WHERE json_extract(m.value,'$.id')=a.key AND json_extract(m.value,'$.custom')=1)), tallies AS (SELECT mid,pid,COUNT(*) n,MAX((SELECT json(p.value) FROM json_each(c.payload,'$.people') p WHERE json_extract(p.value,'$.id')=c.pid LIMIT 1)) person FROM choices c GROUP BY mid,pid), ranked AS (SELECT *,ROW_NUMBER() OVER(PARTITION BY mid ORDER BY n DESC,pid) rank FROM tallies) SELECT mid,pid,n,person FROM ranked WHERE rank<=20`).all();

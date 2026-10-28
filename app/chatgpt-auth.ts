@@ -1,3 +1,4 @@
+import { displayName as safePublicName } from "../lib/display-name";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 
@@ -33,7 +34,7 @@ export async function getChatGPTUser(): Promise<ChatGPTUser | null> {
 
   return {
     userId,
-    displayName: fullName ?? email,
+    displayName: safePublicName(fullName),
     email,
     fullName,
   };

@@ -2,13 +2,14 @@ import {env} from 'cloudflare:workers';
 import {randomBytes,scrypt,timingSafeEqual} from 'node:crypto';
 import {Buffer} from 'node:buffer';
 import {z} from 'zod';
-export type AccountUser={id:string;name:string;email:string};
+import {displayName,validDisplayName} from './display-name';
+export type AccountUser={id:string;name:string};
 export type AuthUser={userId:string;fullName:string;email:string};
 const COOKIE='ministeriaveis_session',TTL=30*86400_000;
 const emailSchema=z.string().trim().toLowerCase().email().max(254);
 const passwordSchema=z.string().min(12,'Use pelo menos 12 caracteres na senha.').max(128,'Use no máximo 128 caracteres na senha.');
 const credentials=z.object({email:emailSchema,password:z.string().min(1).max(128)});
-const registration=z.object({email:emailSchema,password:passwordSchema,name:z.string().trim().min(2,'Informe seu nome ou apelido.').max(60)});
+const registration=z.object({email:emailSchema,password:passwordSchema,name:z.string().trim().min(2,'Informe seu nome ou apelido.').max(60).refine(validDisplayName,'Use um nome ou apelido, sem e-mail.')});
 const recovery=z.object({email:emailSchema,code:z.string().min(1).max(100),password:passwordSchema});
 const change=z.object({currentPassword:z.string().min(1).max(128),password:passwordSchema});
 const response=(data:unknown,status=200,cookie?:string)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff',...(cookie?{'Set-Cookie':cookie}:{})}});
@@ -20,8 +21,8 @@ export async function hashPassword(password:string){const salt=randomBytes(16).t
 export async function verifyPassword(password:string,stored:string){const parts=stored.split('$');if(parts.length!==6||parts.slice(0,4).join('$')!=='scrypt$16384$8$5'||!/^[a-f0-9]{32}$/.test(parts[4])||!/^[a-f0-9]{64}$/.test(parts[5]))return false;return equal((await derive(password,parts[4])).toString('hex'),parts[5]);}
 const dummy='scrypt$16384$8$5$'+'0'.repeat(32)+'$'+'0'.repeat(64);
 function cookie(req:Request,token:string,maxAge=TTL/1000){return `${COOKIE}=${token}; Path=/; HttpOnly; SameSite=Lax; Max-Age=${maxAge}${new URL(req.url).protocol==='https:'?'; Secure':''}`;}
-export async function getUser(req:Request):Promise<AuthUser|null>{const token=sessionToken(req);if(!token||!env.DB)return null;const row=await env.DB.prepare('SELECT a.id,a.name,a.email FROM auth_sessions s JOIN auth_accounts a ON a.id=s.account_id WHERE s.token_hash=? AND s.expires_at>? AND s.credential_version=a.credential_version').bind(await digest('session:'+token),Date.now()).first<any>();return row?{userId:row.id,fullName:row.name,email:row.email}:null;}
-function publicUser(u:any):AccountUser{return {id:u.id,name:u.name,email:u.email};}
+export async function getUser(req:Request):Promise<AuthUser|null>{const token=sessionToken(req);if(!token||!env.DB)return null;const row=await env.DB.prepare('SELECT a.id,a.name,a.email FROM auth_sessions s JOIN auth_accounts a ON a.id=s.account_id WHERE s.token_hash=? AND s.expires_at>? AND s.credential_version=a.credential_version').bind(await digest('session:'+token),Date.now()).first<any>();return row?{userId:row.id,fullName:displayName(row.name),email:row.email}:null;}
+function publicUser(u:any):AccountUser{return {id:u.id,name:displayName(u.name)};}
 async function newSession(req:Request,userId:string,credentialVersion=0){const token=randomBytes(32).toString('hex'),now=Date.now(),old=sessionToken(req);const statements=[];if(old)statements.push(env.DB!.prepare('DELETE FROM auth_sessions WHERE token_hash=?').bind(await digest('session:'+old)));statements.push(env.DB!.prepare('INSERT INTO auth_sessions(token_hash,account_id,created_at,expires_at,credential_version) SELECT ?,id,?,?,credential_version FROM auth_accounts WHERE id=? AND credential_version=?').bind(await digest('session:'+token),now,now+TTL,userId,credentialVersion));await env.DB!.batch(statements);return cookie(req,token);}
 function recoveryCode(){return randomBytes(20).toString('hex').match(/.{1,5}/g)!.join('-');}
 const codeHash=(email:string,code:string)=>digest('recovery:'+email+':'+code.replace(/[\s-]/g,'').toLowerCase());
@@ -31,7 +32,7 @@ export async function handleAuth(req:Request,action:string):Promise<Response>{
  if(req.method!=='POST')return response({error:'Rota não encontrada.'},404);
  if(req.headers.get('origin')!==new URL(req.url).origin||req.headers.get('sec-fetch-site')==='cross-site')return response({error:'Origem não permitida.'},403);
  if(!env.DB)return response({error:'Acesso indisponível. Tente novamente.'},503);
- if(!['register','login','logout','recover','password'].includes(action))return response({error:'Rota não encontrada.'},404);
+ if(!['register','login','logout','recover','password','profile'].includes(action))return response({error:'Rota não encontrada.'},404);
  if(action==='logout'){const token=sessionToken(req);if(token)await env.DB.prepare('DELETE FROM auth_sessions WHERE token_hash=?').bind(await digest('session:'+token)).run();return response({ok:true},200,cookie(req,'',0));}
  // Cloudflare supplies this header; it is never used as identity.
  const ip=req.headers.get('cf-connecting-ip')||'unavailable';
@@ -63,9 +64,14 @@ export async function handleAuth(req:Request,action:string):Promise<Response>{
   await env.DB.prepare('DELETE FROM auth_sessions WHERE account_id=?').bind(account.id).run();return response({user:publicUser(account),recoveryCode:nextCode},200,await newSession(req,account.id,changed.credential_version));
  }
  const user=await getUser(req);if(!user)return response({error:'Entre para alterar a senha.'},401);
+ if(action==='profile'){
+  const parsed=z.object({name:z.string().trim().refine(validDisplayName,'Use um nome ou apelido de 2 a 60 caracteres, sem e-mail.')}).safeParse(body);if(!parsed.success)return response({error:parsed.error.issues[0].message},400);
+  await env.DB.batch([env.DB.prepare('UPDATE auth_accounts SET name=? WHERE id=?').bind(parsed.data.name,user.userId),env.DB.prepare("UPDATE versions SET owner_label=? WHERE owner_id=? AND (trim(owner_label)='' OR instr(owner_label,'@')>0)").bind(parsed.data.name,user.userId)]);
+  return response({user:{id:user.userId,name:parsed.data.name}});
+ }
  const result=change.safeParse(body);if(!result.success)return response({error:result.error.issues[0].message},400);
  const account=await env.DB.prepare('SELECT password_hash FROM auth_accounts WHERE id=?').bind(user.userId).first<any>();
  if(!account||!await verifyPassword(result.data.currentPassword,account.password_hash))return response({error:'Senha atual incorreta.'},401);
  const nextCode=recoveryCode();const changed=await env.DB.prepare('UPDATE auth_accounts SET password_hash=?,recovery_hash=?,credential_version=credential_version+1 WHERE id=? AND password_hash=? RETURNING id,credential_version').bind(await hashPassword(result.data.password),await codeHash(user.email,nextCode),user.userId,account.password_hash).first<any>();if(!changed)return response({error:'O acesso mudou. Entre novamente.'},401);
- await env.DB.prepare('DELETE FROM auth_sessions WHERE account_id=?').bind(user.userId).run();return response({user:{id:user.userId,name:user.fullName,email:user.email},recoveryCode:nextCode},200,await newSession(req,user.userId,changed.credential_version));
+ await env.DB.prepare('DELETE FROM auth_sessions WHERE account_id=?').bind(user.userId).run();return response({user:{id:user.userId,name:displayName(user.fullName)},recoveryCode:nextCode},200,await newSession(req,user.userId,changed.credential_version));
 }

@@ -22,7 +22,7 @@ async function req(method,path,data,cookie='',headers={}){const res=await api[me
 const register=(email)=>req('POST','auth/register',{email,password,name:'Teste de acesso'});
 test('Cadastro usa senha protegida, cookie seguro e ignora identidade ChatGPT',async()=>{
  assert.equal((await req('POST','auth/register',{email:'short@example.invalid',password:'curta',name:'Teste'})).status,400);
- const a=await register('Pessoa@Example.Invalid');assert.equal(a.status,201);assert.equal(a.body.user.email,'pessoa@example.invalid');assert.match(a.setCookie,/HttpOnly/);assert.match(a.setCookie,/SameSite=Lax/);assert.match(a.setCookie,/Secure/);assert.match(a.body.recoveryCode,/^[a-f0-9-]{47}$/);
+ const a=await register('Pessoa@Example.Invalid');assert.equal(a.status,201);assert.equal(a.body.user.email,undefined);assert.equal(db.prepare('SELECT email FROM auth_accounts WHERE id=?').get(a.body.user.id).email,'pessoa@example.invalid');assert.match(a.setCookie,/HttpOnly/);assert.match(a.setCookie,/SameSite=Lax/);assert.match(a.setCookie,/Secure/);assert.match(a.body.recoveryCode,/^[a-f0-9-]{47}$/);
  const account=db.prepare('SELECT * FROM auth_accounts WHERE id=?').get(a.body.user.id);assert.match(account.password_hash,/^scrypt\$16384\$8\$5\$/);assert.ok(!account.password_hash.includes(password));assert.notEqual(account.recovery_hash,a.body.recoveryCode);assert.equal(db.prepare('SELECT token_hash FROM auth_sessions WHERE account_id=?').get(account.id).token_hash.includes(a.cookie.split('=')[1]),false);
  const me=await req('GET','me',null,a.cookie);assert.equal(me.body.user.id,account.id);assert.equal('recoveryCode' in me.body,false);assert.equal('password_hash' in me.body.user,false);
  assert.equal((await req('GET','me',null,'',{'oai-authenticated-user-id':account.id,'oai-authenticated-user-email':account.email})).body.user,null);
@@ -36,7 +36,7 @@ test('Entrar gira a sessão, versão pertence à conta e não confia em cabeçal
  const a=await register('owner@example.invalid'),b=await register('other@example.invalid');assert.equal((await req('POST','auth/login',{email:'owner@example.invalid',password:'senha errada'})).status,401);
  const login=await req('POST','auth/login',{email:'OWNER@example.invalid',password},a.cookie);assert.equal(login.status,200);assert.notEqual(login.cookie,a.cookie);assert.equal((await req('GET','me',null,a.cookie)).body.user,null);
  const saved=await req('POST','versions',{payload:seed,parentId:null,ownerLabel:'Autor A'},login.cookie);assert.equal(saved.status,201);assert.equal(saved.body.isOwner,true);
- const other=await req('GET','versions/'+saved.body.id,null,b.cookie,{'oai-authenticated-user-id':a.body.user.id,'oai-authenticated-user-email':a.body.user.email});assert.equal(other.body.isOwner,false);
+ const other=await req('GET','versions/'+saved.body.id,null,b.cookie,{'oai-authenticated-user-id':a.body.user.id,'oai-authenticated-user-email':'owner@example.invalid'});assert.equal(other.body.isOwner,false);
  const fork=await req('POST','versions',{payload:seed,parentId:saved.body.id,ownerLabel:'Autor B'},b.cookie);assert.equal(fork.body.relation,'fork');assert.equal((await req('GET','export',null,b.cookie)).body.versions.length,1);
  const community=await req('GET','community');assert.ok(!JSON.stringify(community.body).includes('owner@example.invalid'));assert.ok(!JSON.stringify(community.body).includes('other@example.invalid'));
 });
@@ -55,3 +55,16 @@ test('Alterar senha exige senha atual, renova código e encerra outras sessões'
  db.prepare('UPDATE auth_sessions SET expires_at=0 WHERE account_id=?').run(a.body.user.id);assert.equal((await req('GET','me',null,changed.cookie)).body.user,null);
 });
 test('Tentativas de senha são limitadas antes de repetir derivação cara',async()=>{for(let i=0;i<10;i++)assert.equal((await req('POST','auth/login',{email:'nobody@example.invalid',password:'errada'},'',{'CF-Connecting-IP':'192.0.2.2'})).status,401);assert.equal((await req('POST','auth/login',{email:'nobody@example.invalid',password:'errada'},'',{'CF-Connecting-IP':'192.0.2.2'})).status,429)});
+
+test('Nome público nunca usa e-mail; editar o perfil corrige rótulos antigos',async()=>{
+ const a=await register('private-name@example.invalid');db.prepare('UPDATE auth_accounts SET name=? WHERE id=?').run('private-name@example.invalid',a.body.user.id);
+ let me=await req('GET','me',null,a.cookie);assert.equal(me.body.user.name,'Participante');assert.equal('email' in me.body.user,false);
+ const invalid=await req('POST','auth/profile',{name:'private-name@example.invalid'},a.cookie);assert.equal(invalid.status,400);
+ assert.equal((await req('POST','auth/register',{email:'new-name@example.invalid',name:'new-name@example.invalid',password},'',{'CF-Connecting-IP':'192.0.2.4'})).status,400);
+ const renamed=await req('POST','auth/profile',{name:'Nome Público'},a.cookie);assert.equal(renamed.status,200);assert.deepEqual(renamed.body.user,{id:a.body.user.id,name:'Nome Público'});assert.equal(db.prepare('SELECT name FROM auth_accounts WHERE id=?').get(a.body.user.id).name,'Nome Público');
+ const saved=await req('POST','versions',{payload:seed,parentId:null,ownerLabel:'Nome Público'},a.cookie);assert.equal(saved.status,201);db.prepare('UPDATE versions SET owner_label=? WHERE id=?').run('private-name@example.invalid',saved.body.id);
+ assert.equal((await req('GET','versions/'+saved.body.id)).body.ownerLabel,'Participante');const history=await req('GET','history/'+saved.body.id);assert.equal(history.body[0].owner_label,'Participante');assert.ok(!JSON.stringify((await req('GET','community')).body).includes('private-name@example.invalid'));
+ db.prepare('UPDATE auth_accounts SET name=? WHERE id=?').run('   ',a.body.user.id);me=await req('GET','me',null,a.cookie);assert.equal(me.body.user.name,'Participante');assert.equal('email' in me.body.user,false);
+ assert.equal((await req('POST','versions',{payload:{...seed,title:'Nome inválido no autor'},parentId:null,ownerLabel:'private-name@example.invalid'},a.cookie)).status,400);
+
+});
