@@ -1,6 +1,7 @@
 import {env} from 'cloudflare:workers';
 import {getUser,handleAuth} from '../../../lib/auth';
 import {canonicalJSON,people,fundingError} from '../../../lib/domain';
+import {readPhoto,PhotoError} from '../../../lib/photos';
 import {displayName} from '../../../lib/display-name';
 import {integrityError} from '../../../lib/integrity';
 import {saveSchema} from '../../../lib/validation';
@@ -14,7 +15,7 @@ function originOK(req:Request){const origin=req.headers.get('origin');return ori
 async function handle(req:Request){
  const path=new URL(req.url).pathname.replace(/^\/api\//,'').split('/');if(path[0]==='auth')return handleAuth(req,path[1]||'');const user=await getUser(req);
  if(req.method==='GET'&&path[0]==='me')return json({user:user?{id:user.userId,name:displayName(user.fullName)}:null});
- if(path[0]==='photos'&&req.method==='GET'&&/^[a-f0-9-]{36}$/.test(path[1]||'')){const o=await env.BUCKET!.get('photos/'+path[1]);if(!o)return json({error:'Foto não encontrada.'},404);return new Response(o.body,{headers:{'Content-Type':o.httpMetadata?.contentType||'image/jpeg','Cache-Control':'public,max-age=31536000,immutable','X-Content-Type-Options':'nosniff','Content-Security-Policy':"default-src 'none'"}});}
+ if(path[0]==='photos'&&req.method==='GET'&&/^[a-f0-9-]{36}$/.test(path[1]||'')){if(!env.BUCKET)return json({error:'Fotos indisponíveis. Tente novamente.'},503);const o=await env.BUCKET.get('photos/'+path[1]);if(!o)return json({error:'Foto não encontrada.'},404);return new Response(o.body,{headers:{'Content-Type':o.httpMetadata?.contentType||'image/jpeg','Cache-Control':'public,max-age=31536000,immutable','X-Content-Type-Options':'nosniff','Content-Security-Policy':"default-src 'none'"}});}
  if(!env.DB)return json({error:'O banco de dados não está disponível.'},503);
  if(req.method==='GET'&&path[0]==='versions'&&path[1]){if(!/^[a-f0-9]{24}$/.test(path[1]))return json({error:'Endereço inválido.'},400);const v=await version(path[1],user?.userId);return v?json(v):json({error:'Escalação não encontrada.'},404);}
  if(req.method==='GET'&&path[0]==='history'&&path[1]){const v=await version(path[1],user?.userId);if(!v)return json({error:'Escalação não encontrada.'},404);const out=await env.DB.prepare('SELECT id,title,owner_label,parent_id,root_id,version,relation,created_at FROM versions WHERE root_id=? OR id=? ORDER BY created_at DESC LIMIT 100').bind(v.rootId,v.parentId||'').all();return json(out.results.map((row:any)=>({...row,owner_label:displayName(row.owner_label)})));}
@@ -48,10 +49,7 @@ async function handle(req:Request){
  if(req.method==='POST'&&path[0]==='photos'){
  if(!env.BUCKET)return json({error:'Envio de fotos indisponível.'},503);
  const count=await env.DB.prepare("SELECT COUNT(*) n FROM uploads WHERE owner_id=? AND created_at>=?").bind(user.userId,new Date(Date.now()-86400000).toISOString()).first<any>();if(Number(count?.n||0)>=40)return json({error:'Limite diário de 40 fotos atingido.'},429);
- if(Number(req.headers.get('content-length')||0)>3_000_000)return json({error:'A foto precisa ter até 3 MB.'},413);
- const bytes=new Uint8Array(await req.arrayBuffer());if(bytes.length>3_000_000||bytes.length<12)return json({error:'A foto precisa ter até 3 MB.'},413);
- const type=bytes[0]===0xff&&bytes[1]===0xd8?'image/jpeg':bytes[0]===137&&bytes[1]===80&&bytes[2]===78&&bytes[3]===71?'image/png':String.fromCharCode(...bytes.slice(0,4))==='RIFF'&&String.fromCharCode(...bytes.slice(8,12))==='WEBP'?'image/webp':null;
- if(!type)return json({error:'Use uma foto JPEG, PNG ou WebP.'},400);const id=crypto.randomUUID();await env.BUCKET.put('photos/'+id,bytes,{httpMetadata:{contentType:type}});await env.DB.prepare('INSERT INTO uploads(id,owner_id,content_type,created_at) VALUES(?,?,?,?)').bind(id,user.userId,type,new Date().toISOString()).run();return json({url:'/api/photos/'+id},201);
+ let photo;try{photo=await readPhoto(req)}catch(e){if(e instanceof PhotoError)return json({error:e.message},e.status);throw e;}const {bytes,type}=photo;const id=crypto.randomUUID();await env.BUCKET.put('photos/'+id,bytes,{httpMetadata:{contentType:type}});await env.DB.prepare('INSERT INTO uploads(id,owner_id,content_type,created_at) VALUES(?,?,?,?)').bind(id,user.userId,type,new Date().toISOString()).run();return json({url:'/api/photos/'+id},201);
  }
  return json({error:'Rota não encontrada.'},404);
 }
